@@ -1,0 +1,117 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "hero_async_message_component.dart",
+        "5": false
+      },
+      {
+        "1": "hero_birthday2_component.dart",
+        "5": false
+      },
+      {
+        "1": "hero_list_component.dart",
+        "5": false
+      },
+      {
+        "1": "power_booster.dart",
+        "5": false
+      },
+      {
+        "1": "power_boost_calculator.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "AppComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'my-app'"
+              },
+              {
+                "1": "templateUrl",
+                "2": "'app_component.html'"
+              },
+              {
+                "1": "directives",
+                "2": "const [HeroAsyncMessageComponent, HeroBirthday, HeroListComponent, PowerBooster, PowerBoostCalculator]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "8": [
+          {
+            "2": "HeroAsyncMessageComponent"
+          },
+          {
+            "2": "HeroBirthday"
+          },
+          {
+            "2": "HeroListComponent"
+          },
+          {
+            "2": "PowerBooster"
+          },
+          {
+            "2": "PowerBoostCalculator"
+          }
+        ]
+      }
+    ],
+    "6": "app_component.dart"
+  },
+  "type": {
+    "AppComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "my-app",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "AppComponent",
+        "moduleUrl": "asset:pipe_examples/lib/app_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "<hr>\n<!-- async examples at the top so can see them in action -->\n<hero-message></hero-message>\n\n<hr>\n<hero-list></hero-list>\n\n<hr>\n<p>The hero's birthday is {{ birthday | date }}</p>\n\n<p>The hero's birthday is {{ birthday | date:\"MM/dd/yy\" }} </p>\n\n<hr>\n<h4>Hero Birthday v.2</h4>\n<hero-birthday>loading...</hero-birthday>\n<hr>\n\n\n<p>\n    The chained hero's birthday is\n    {{ birthday | date | uppercase}}\n</p>\n\n<p>\n    The chained hero's birthday is\n    {{  birthday | date:'fullDate' | uppercase}}\n</p>\n<p>\n    The chained hero's birthday is\n    {{ ( birthday | date:'fullDate' ) | uppercase}}\n</p>\n<hr>\n<power-booster>loading...</power-booster>\n\n<hr>\n<power-boost-calculator>loading ..</power-boost-calculator>\n",
+        "templateUrl": "asset:pipe_examples/lib/app_component.html",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}

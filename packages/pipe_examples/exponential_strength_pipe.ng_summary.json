@@ -1,0 +1,64 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:math",
+        "4": "math",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "ExponentialStrengthPipe",
+        "4": [
+          {
+            "1": "Pipe",
+            "3": [
+              {
+                "1": "name",
+                "2": "'exponentialStrength'"
+              }
+            ],
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          },
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "exponential_strength_pipe.dart"
+  },
+  "type": {
+    "ExponentialStrengthPipe": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "ExponentialStrengthPipe",
+        "moduleUrl": "asset:pipe_examples/lib/exponential_strength_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": null
+      },
+      "name": "exponentialStrength",
+      "pure": false
+    }
+  },
+  "alias": {}
+}

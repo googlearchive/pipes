@@ -1,0 +1,89 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "fetch_json_pipe.dart",
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "HeroListComponent",
+        "4": [
+          {
+            "1": "Component",
+            "3": [
+              {
+                "1": "selector",
+                "2": "'hero-list'"
+              },
+              {
+                "1": "template",
+                "2": "'''\n    <h4>Heroes from JSON File</h4>\n\n    <div *ngFor=\"#hero of ('heroes.json' | fetch) \">\n      {{hero['name']}}\n    </div>\n\n    <p>Heroes as JSON:\n    {{'heroes.json' | fetch | json}}\n    </p>\n'''"
+              },
+              {
+                "1": "pipes",
+                "2": "const [FetchJsonPipe]"
+              }
+            ],
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true,
+            "8": false
+          }
+        ],
+        "9": [
+          {
+            "2": "FetchJsonPipe"
+          }
+        ]
+      }
+    ],
+    "6": "hero_list_component.dart"
+  },
+  "type": {
+    "HeroListComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "hero-list",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "HeroListComponent",
+        "moduleUrl": "asset:pipe_examples/lib/hero_list_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 2,
+        "template": "    <h4>Heroes from JSON File</h4>\n\n    <div *ngFor=\"#hero of ('heroes.json' | fetch) \">\n      {{hero['name']}}\n    </div>\n\n    <p>Heroes as JSON:\n    {{'heroes.json' | fetch | json}}\n    </p>\n",
+        "templateUrl": "asset:pipe_examples/lib/hero_list_component.dart",
+        "styles": [],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {}
+}
