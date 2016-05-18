@@ -24,7 +24,7 @@
               },
               {
                 "1": "template",
-                "2": "'Message: {{delayedMessage | async}}'"
+                "2": "'''\n      <h2>Async Hero Message and AsyncPipe</h2>\n      <p>Message: {{ message | async }}</p>\n      <button (click)=\"resend()\">Resend</button>\n    '''"
               }
             ],
             "4": false,
@@ -64,7 +64,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "Message: {{delayedMessage | async}}",
+        "template": "      <h2>Async Hero Message and AsyncPipe</h2>\n      <p>Message: {{ message | async }}</p>\n      <button (click)=\"resend()\">Resend</button>\n    ",
         "templateUrl": "asset:pipe_examples/lib/hero_async_message_component.dart",
         "styles": [],
         "styleUrls": [],

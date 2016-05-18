@@ -20,7 +20,7 @@
               },
               {
                 "1": "template",
-                "2": "'''\n      <p>The hero's birthday is {{ birthday | date }}</p>\n    '''"
+                "2": "\"<p>The hero's birthday is {{ birthday | date }}</p>\""
               }
             ],
             "4": false,
@@ -60,7 +60,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "      <p>The hero's birthday is {{ birthday | date }}</p>\n    ",
+        "template": "<p>The hero's birthday is {{ birthday | date }}</p>",
         "templateUrl": "asset:pipe_examples/lib/hero_birthday1_component.dart",
         "styles": [],
         "styleUrls": [],

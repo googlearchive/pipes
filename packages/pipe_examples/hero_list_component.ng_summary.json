@@ -24,7 +24,7 @@
               },
               {
                 "1": "template",
-                "2": "'''\n    <h4>Heroes from JSON File</h4>\n\n    <div *ngFor=\"#hero of ('heroes.json' | fetch) \">\n      {{hero['name']}}\n    </div>\n\n    <p>Heroes as JSON:\n    {{'heroes.json' | fetch | json}}\n    </p>\n'''"
+                "2": "'''\n      <h4>Heroes from JSON File</h4>\n\n      <div *ngFor=\"#hero of ('heroes.json' | fetch) \">\n        {{hero['name']}}\n      </div>\n\n      <p>Heroes as JSON:\n      {{'heroes.json' | fetch | json}}\n      </p>\n    '''"
               },
               {
                 "1": "pipes",
@@ -73,7 +73,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "    <h4>Heroes from JSON File</h4>\n\n    <div *ngFor=\"#hero of ('heroes.json' | fetch) \">\n      {{hero['name']}}\n    </div>\n\n    <p>Heroes as JSON:\n    {{'heroes.json' | fetch | json}}\n    </p>\n",
+        "template": "      <h4>Heroes from JSON File</h4>\n\n      <div *ngFor=\"#hero of ('heroes.json' | fetch) \">\n        {{hero['name']}}\n      </div>\n\n      <p>Heroes as JSON:\n      {{'heroes.json' | fetch | json}}\n      </p>\n    ",
         "templateUrl": "asset:pipe_examples/lib/hero_list_component.dart",
         "styles": [],
         "styleUrls": [],

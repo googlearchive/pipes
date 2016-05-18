@@ -7,7 +7,15 @@
         "5": false
       },
       {
+        "1": "flying_heroes_component.dart",
+        "5": false
+      },
+      {
         "1": "hero_async_message_component.dart",
+        "5": false
+      },
+      {
+        "1": "hero_birthday1_component.dart",
         "5": false
       },
       {
@@ -19,11 +27,11 @@
         "5": false
       },
       {
-        "1": "power_booster.dart",
+        "1": "power_boost_calculator_component.dart",
         "5": false
       },
       {
-        "1": "power_boost_calculator.dart",
+        "1": "power_booster_component.dart",
         "5": false
       }
     ],
@@ -44,7 +52,7 @@
               },
               {
                 "1": "directives",
-                "2": "const [HeroAsyncMessageComponent, HeroBirthday, HeroListComponent, PowerBooster, PowerBoostCalculator]"
+                "2": "const [FlyingHeroesComponent, FlyingHeroesImpureComponent, HeroAsyncMessageComponent, HeroBirthday, HeroBirthday2, HeroListComponent, PowerBoostCalculator, PowerBooster]"
               }
             ],
             "4": false,
@@ -56,19 +64,28 @@
         ],
         "8": [
           {
+            "2": "FlyingHeroesComponent"
+          },
+          {
+            "2": "FlyingHeroesImpureComponent"
+          },
+          {
             "2": "HeroAsyncMessageComponent"
           },
           {
             "2": "HeroBirthday"
           },
           {
+            "2": "HeroBirthday2"
+          },
+          {
             "2": "HeroListComponent"
           },
           {
-            "2": "PowerBooster"
+            "2": "PowerBoostCalculator"
           },
           {
-            "2": "PowerBoostCalculator"
+            "2": "PowerBooster"
           }
         ]
       }
@@ -101,7 +118,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<hr>\n<!-- async examples at the top so can see them in action -->\n<hero-message></hero-message>\n\n<hr>\n<hero-list></hero-list>\n\n<hr>\n<p>The hero's birthday is {{ birthday | date }}</p>\n\n<p>The hero's birthday is {{ birthday | date:\"MM/dd/yy\" }} </p>\n\n<hr>\n<h4>Hero Birthday v.2</h4>\n<hero-birthday>loading...</hero-birthday>\n<hr>\n\n\n<p>\n    The chained hero's birthday is\n    {{ birthday | date | uppercase}}\n</p>\n\n<p>\n    The chained hero's birthday is\n    {{  birthday | date:'fullDate' | uppercase}}\n</p>\n<p>\n    The chained hero's birthday is\n    {{ ( birthday | date:'fullDate' ) | uppercase}}\n</p>\n<hr>\n<power-booster>loading...</power-booster>\n\n<hr>\n<power-boost-calculator>loading ..</power-boost-calculator>\n",
+        "template": "<a id=\"toc\"></a>\n<h1>Pipes</h1>\n<a href=\"#happy-birthday1\">Happy Birthday v1</a><br>\n<a href=\"#birthday-date-pipe\">Birthday DatePipe</a><br>\n<a href=\"#happy-birthday2\">Happy Birthday v2</a><br>\n<a href=\"#birthday-pipe-chaining\">Birthday Pipe Chaining</a><br>\n<a href=\"#power-booster\">Power Booster custom pipe</a><br>\n<a href=\"#power-boost-calc\">Power Boost Calculator custom pipe with params</a><br>\n<a href=\"#flying-heroes\">Flying Heroes filter pipe (pure)</a><br>\n<a href=\"#flying-heroes-impure\">Flying Heroes filter pipe (impure)</a><br>\n<a href=\"#hero-message\">Async Hero Message and AsyncPipe</a><br>\n<a href=\"#hero-list\">Hero List with caching FetchJsonPipe</a><br>\n\n\n<hr>\n<a id=\"happy-birthday1\"></a>\n<h2>Hero Birthday v1</h2>\n<hero-birthday></hero-birthday>\n\n<hr>\n<a id=\"birthday-date-pipe\"></a>\n<h2>Birthday DatePipe</h2>\n<p>The hero's birthday is {{ birthday | date }}</p>\n\n<p>The hero's birthday is {{ birthday | date:\"MM/dd/yy\" }} </p>\n\n<hr>\n<a id=\"happy-birthday2\"></a>\n<h2>Hero Birthday v2</h2>\n<hero-birthday2></hero-birthday2>\n\n<hr>\n<a id=\"birthday-pipe-chaining\"></a>\n<h2>Birthday Pipe Chaining</h2>\n<p>\n  The chained hero's birthday is\n  {{ birthday | date | uppercase}}\n</p>\n\n<p>\n  The chained hero's birthday is\n  {{  birthday | date:'fullDate' | uppercase}}\n</p>\n<p>\n  The chained hero's birthday is\n  {{ ( birthday | date:'fullDate' ) | uppercase}}\n</p>\n<hr>\n<a id=\"power-booster\"></a>\n<power-booster></power-booster>\n\n<hr>\n<a id=\"power-boost-calc\"></a>\n<power-boost-calculator>loading</power-boost-calculator>\n\n<hr>\n<a id=\"flying-heroes\"></a>\n<flying-heroes></flying-heroes>\n\n<hr>\n<a id=\"flying-heroes-impure\"></a>\n<flying-heroes-impure></flying-heroes-impure>\n\n<hr>\n<a id=\"hero-message\"></a>\n<!-- async examples at the top so can see them in action -->\n<hero-message></hero-message>\n\n<hr>\n<a id=\"hero-list\"></a>\n<hero-list></hero-list>\n\n<div style=\"margin-top:12em;\"></div>\n",
         "templateUrl": "asset:pipe_examples/lib/app_component.html",
         "styles": [],
         "styleUrls": [],

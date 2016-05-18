@@ -13,26 +13,22 @@
     ],
     "5": [
       {
-        "1": "PowerBoostCalculator",
+        "1": "PowerBooster",
         "4": [
           {
             "1": "Component",
             "3": [
               {
                 "1": "selector",
-                "2": "'power-boost-calculator'"
+                "2": "'power-booster'"
               },
               {
                 "1": "template",
-                "2": "'''\n<h2>Power Boost Calculator</h2>\n<div>Normal power: <input [(ngModel)]=\"power\" /></div>\n<div>Boost factor: <input [(ngModel)]=\"factor\" /></div>\n<p>\n  Super Hero Power: {{power | exponentialStrength: factor}}\n</p>\n'''"
+                "2": "'''\n      <h2>Power Booster</h2>\n      <p>Super power boost: {{2 | exponentialStrength: 10}}</p>\n    '''"
               },
               {
                 "1": "pipes",
                 "2": "const [ExponentialStrengthPipe]"
-              },
-              {
-                "1": "directives",
-                "2": "const [COMMON_DIRECTIVES]"
               }
             ],
             "4": false,
@@ -42,11 +38,6 @@
             "8": false
           }
         ],
-        "8": [
-          {
-            "2": "COMMON_DIRECTIVES"
-          }
-        ],
         "9": [
           {
             "2": "ExponentialStrengthPipe"
@@ -54,19 +45,19 @@
         ]
       }
     ],
-    "6": "power_boost_calculator.dart"
+    "6": "power_booster_component.dart"
   },
   "type": {
-    "PowerBoostCalculator": {
+    "PowerBooster": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
-      "selector": "power-boost-calculator",
+      "selector": "power-booster",
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "PowerBoostCalculator",
-        "moduleUrl": "asset:pipe_examples/lib/power_boost_calculator.dart",
+        "name": "PowerBooster",
+        "moduleUrl": "asset:pipe_examples/lib/power_booster_component.dart",
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
@@ -82,8 +73,8 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<h2>Power Boost Calculator</h2>\n<div>Normal power: <input [(ngModel)]=\"power\" /></div>\n<div>Boost factor: <input [(ngModel)]=\"factor\" /></div>\n<p>\n  Super Hero Power: {{power | exponentialStrength: factor}}\n</p>\n",
-        "templateUrl": "asset:pipe_examples/lib/power_boost_calculator.dart",
+        "template": "      <h2>Power Booster</h2>\n      <p>Super power boost: {{2 | exponentialStrength: 10}}</p>\n    ",
+        "templateUrl": "asset:pipe_examples/lib/power_booster_component.dart",
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []

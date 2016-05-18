@@ -9,14 +9,14 @@
     ],
     "5": [
       {
-        "1": "HeroBirthday",
+        "1": "HeroBirthday2",
         "4": [
           {
             "1": "Component",
             "3": [
               {
                 "1": "selector",
-                "2": "'hero-birthday'"
+                "2": "'hero-birthday2'"
               },
               {
                 "1": "template",
@@ -35,15 +35,15 @@
     "6": "hero_birthday2_component.dart"
   },
   "type": {
-    "HeroBirthday": {
+    "HeroBirthday2": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
-      "selector": "hero-birthday",
+      "selector": "hero-birthday2",
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "HeroBirthday",
+        "name": "HeroBirthday2",
         "moduleUrl": "asset:pipe_examples/lib/hero_birthday2_component.dart",
         "prefix": null,
         "isHost": false,

@@ -614,7 +614,15 @@ enum UnlinkedConstOperation : byte {
   /**
    * Pop the top value from the stack and raise an exception with this value.
    */
-  throwException
+  throwException,
+
+  /**
+   * Obtain two values `n` and `m` from [UnlinkedConst.ints].  Then, starting at
+   * the executable element for the expression being evaluated, if n > 0, pop to
+   * the nth enclosing function element.  Then, push the mth local function of
+   * that element onto the stack.
+   */
+  pushLocalFunctionReference
 }
 
 /**
@@ -902,8 +910,7 @@ table EntityRef {
 
   /**
    * If this is an instantiation of a generic type or generic executable, the
-   * type arguments used to instantiate it.  Trailing type arguments of type
-   * `dynamic` are omitted.
+   * type arguments used to instantiate it (if any).
    */
   typeArguments:[EntityRef] (id: 1);
 }
@@ -1440,11 +1447,6 @@ table UnlinkedConst {
   isValidConst:bool (id: 5);
 
   /**
-   * If the expression is a [NamedExpression], the name of the expression.
-   */
-  name:string (id: 7);
-
-  /**
    * Sequence of operations to execute (starting with an empty stack) to form
    * the constant value.
    */
@@ -1474,6 +1476,13 @@ table UnlinkedConstructorInitializer {
    * invocation.  Otherwise empty.
    */
   arguments:[UnlinkedConst] (id: 3);
+
+  /**
+   * If there are `m` [arguments] and `n` [argumentNames], then each argument
+   * from [arguments] with index `i` such that `n + i - m >= 0`, should be used
+   * with the name at `n + i - m`.
+   */
+  argumentNames:[string] (id: 4);
 
   /**
    * If [kind] is `field`, the expression of the field initializer.

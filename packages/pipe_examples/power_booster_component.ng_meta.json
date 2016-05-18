@@ -24,7 +24,7 @@
               },
               {
                 "1": "template",
-                "2": "'''\n    <h2>Power Booster</h2>\n    <p>\n      Super power boost: {{2 | exponentialStrength: 10}}\n    </p>\n'''"
+                "2": "'''\n      <h2>Power Booster</h2>\n      <p>Super power boost: {{2 | exponentialStrength: 10}}</p>\n    '''"
               },
               {
                 "1": "pipes",
@@ -45,7 +45,17 @@
         ]
       }
     ],
-    "6": "power_booster.dart"
+    "6": "power_booster_component.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "exponential_strength_pipe.template.dart",
+        "4": "i1"
+      }
+    ]
   },
   "type": {
     "PowerBooster": {
@@ -57,7 +67,7 @@
       "type": {
         "class": "Type",
         "name": "PowerBooster",
-        "moduleUrl": "asset:pipe_examples/lib/power_booster.dart",
+        "moduleUrl": "asset:pipe_examples/lib/power_booster_component.dart",
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
@@ -73,8 +83,8 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "    <h2>Power Booster</h2>\n    <p>\n      Super power boost: {{2 | exponentialStrength: 10}}\n    </p>\n",
-        "templateUrl": "asset:pipe_examples/lib/power_booster.dart",
+        "template": "      <h2>Power Booster</h2>\n      <p>Super power boost: {{2 | exponentialStrength: 10}}</p>\n    ",
+        "templateUrl": "asset:pipe_examples/lib/power_booster_component.dart",
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []
