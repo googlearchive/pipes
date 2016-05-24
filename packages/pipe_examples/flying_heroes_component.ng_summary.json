@@ -92,44 +92,6 @@
     "6": "flying_heroes_component.dart"
   },
   "type": {
-    "FlyingHeroesComponent": {
-      "class": "Directive",
-      "isComponent": true,
-      "dynamicLoadable": true,
-      "selector": "flying-heroes",
-      "exportAs": null,
-      "type": {
-        "class": "Type",
-        "name": "FlyingHeroesComponent",
-        "moduleUrl": "asset:pipe_examples/lib/flying_heroes_component.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "value": null,
-        "diDeps": []
-      },
-      "changeDetection": 5,
-      "inputs": {},
-      "outputs": {},
-      "hostListeners": {},
-      "hostProperties": {},
-      "hostAttributes": {},
-      "lifecycleHooks": [],
-      "template": {
-        "encapsulation": 0,
-        "template": "<h2>{{title}}</h2>\n<p>\nNew hero:\n  <input type=\"text\" #box\n          (keyup.enter)=\"addHero(box.value); box.value=''\"\n          placeholder=\"hero name\">\n  <input id=\"can-fly\" type=\"checkbox\" [(ngModel)]=\"canFly\"> can fly\n</p>\n<p>\n  <input id=\"mutate\" type=\"checkbox\" [(ngModel)]=\"mutate\">Mutate array\n  <button (click)=\"reset()\">Reset</button>\n</p>\n\n<h4>Heroes who fly (piped)</h4>\n<div id=\"flyers\">\n  <div *ngFor=\"#hero of (heroes | flyingHeroes)\">\n    {{hero.name}}\n  </div>\n</div>\n\n<h4>All Heroes (no pipe)</h4>\n<div id=\"all\">\n  <div *ngFor=\"#hero of heroes\">\n    {{hero.name}}\n  </div>\n</div>\n",
-        "templateUrl": "asset:pipe_examples/lib/flying_heroes_component.html",
-        "styles": [
-          "#flyers, #all {font-style: italic}"
-        ],
-        "styleUrls": [],
-        "ngContentSelectors": []
-      },
-      "providers": [],
-      "viewProviders": [],
-      "queries": [],
-      "viewQueries": []
-    },
     "FlyingHeroesImpureComponent": {
       "class": "Directive",
       "isComponent": true,
@@ -159,6 +121,44 @@
         "templateUrl": "asset:pipe_examples/lib/flying_heroes_component.html",
         "styles": [
           ".flyers, .all {font-style: italic}"
+        ],
+        "styleUrls": [],
+        "ngContentSelectors": []
+      },
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "FlyingHeroesComponent": {
+      "class": "Directive",
+      "isComponent": true,
+      "dynamicLoadable": true,
+      "selector": "flying-heroes",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "FlyingHeroesComponent",
+        "moduleUrl": "asset:pipe_examples/lib/flying_heroes_component.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "value": null,
+        "diDeps": []
+      },
+      "changeDetection": 5,
+      "inputs": {},
+      "outputs": {},
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [],
+      "template": {
+        "encapsulation": 0,
+        "template": "<h2>{{title}}</h2>\n<p>\nNew hero:\n  <input type=\"text\" #box\n          (keyup.enter)=\"addHero(box.value); box.value=''\"\n          placeholder=\"hero name\">\n  <input id=\"can-fly\" type=\"checkbox\" [(ngModel)]=\"canFly\"> can fly\n</p>\n<p>\n  <input id=\"mutate\" type=\"checkbox\" [(ngModel)]=\"mutate\">Mutate array\n  <button (click)=\"reset()\">Reset</button>\n</p>\n\n<h4>Heroes who fly (piped)</h4>\n<div id=\"flyers\">\n  <div *ngFor=\"#hero of (heroes | flyingHeroes)\">\n    {{hero.name}}\n  </div>\n</div>\n\n<h4>All Heroes (no pipe)</h4>\n<div id=\"all\">\n  <div *ngFor=\"#hero of heroes\">\n    {{hero.name}}\n  </div>\n</div>\n",
+        "templateUrl": "asset:pipe_examples/lib/flying_heroes_component.html",
+        "styles": [
+          "#flyers, #all {font-style: italic}"
         ],
         "styleUrls": [],
         "ngContentSelectors": []
