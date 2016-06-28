@@ -13,7 +13,7 @@
     ],
     "5": [
       {
-        "1": "PowerBoostCalculator",
+        "1": "PowerBoostCalculatorComponent",
         "4": [
           {
             "1": "Component",
@@ -58,7 +58,7 @@
     ]
   },
   "type": {
-    "PowerBoostCalculator": {
+    "PowerBoostCalculatorComponent": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
@@ -66,7 +66,7 @@
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "PowerBoostCalculator",
+        "name": "PowerBoostCalculatorComponent",
         "moduleUrl": "asset:pipe_examples/lib/power_boost_calculator_component.dart",
         "prefix": null,
         "isHost": false,

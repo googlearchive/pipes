@@ -9,7 +9,7 @@
     ],
     "5": [
       {
-        "1": "HeroBirthday",
+        "1": "HeroBirthdayComponent",
         "4": [
           {
             "1": "Component",
@@ -35,7 +35,7 @@
     "6": "hero_birthday1_component.dart"
   },
   "type": {
-    "HeroBirthday": {
+    "HeroBirthdayComponent": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
@@ -43,7 +43,7 @@
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "HeroBirthday",
+        "name": "HeroBirthdayComponent",
         "moduleUrl": "asset:pipe_examples/lib/hero_birthday1_component.dart",
         "prefix": null,
         "isHost": false,

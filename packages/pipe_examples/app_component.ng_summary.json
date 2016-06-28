@@ -52,7 +52,7 @@
               },
               {
                 "1": "directives",
-                "2": "const [FlyingHeroesComponent, FlyingHeroesImpureComponent, HeroAsyncMessageComponent, HeroBirthday, HeroBirthday2, HeroListComponent, PowerBoostCalculator, PowerBooster]"
+                "2": "const [FlyingHeroesComponent, FlyingHeroesImpureComponent, HeroAsyncMessageComponent, HeroBirthdayComponent, HeroBirthday2Component, HeroListComponent, PowerBoostCalculatorComponent, PowerBoosterComponent]"
               }
             ],
             "4": false,
@@ -73,19 +73,19 @@
             "2": "HeroAsyncMessageComponent"
           },
           {
-            "2": "HeroBirthday"
+            "2": "HeroBirthdayComponent"
           },
           {
-            "2": "HeroBirthday2"
+            "2": "HeroBirthday2Component"
           },
           {
             "2": "HeroListComponent"
           },
           {
-            "2": "PowerBoostCalculator"
+            "2": "PowerBoostCalculatorComponent"
           },
           {
-            "2": "PowerBooster"
+            "2": "PowerBoosterComponent"
           }
         ]
       }

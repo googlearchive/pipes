@@ -13,7 +13,7 @@
     ],
     "5": [
       {
-        "1": "PowerBooster",
+        "1": "PowerBoosterComponent",
         "4": [
           {
             "1": "Component",
@@ -48,7 +48,7 @@
     "6": "power_booster_component.dart"
   },
   "type": {
-    "PowerBooster": {
+    "PowerBoosterComponent": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
@@ -56,7 +56,7 @@
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "PowerBooster",
+        "name": "PowerBoosterComponent",
         "moduleUrl": "asset:pipe_examples/lib/power_booster_component.dart",
         "prefix": null,
         "isHost": false,

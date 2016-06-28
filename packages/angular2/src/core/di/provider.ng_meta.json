@@ -3,10 +3,6 @@
     "1": "angular2.src.core.di.provider",
     "3": [
       {
-        "1": "dart:mirrors",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "Type",
