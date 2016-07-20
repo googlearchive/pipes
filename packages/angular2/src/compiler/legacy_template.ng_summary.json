@@ -5,9 +5,7 @@
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
-          "Injectable",
-          "Provider",
-          "provide"
+          "Injectable"
         ],
         "5": false
       },
@@ -16,7 +14,6 @@
         "2": [
           "StringWrapper",
           "RegExpWrapper",
-          "isBlank",
           "isPresent"
         ],
         "5": false
@@ -29,6 +26,8 @@
           "HtmlElementAst",
           "HtmlTextAst",
           "HtmlCommentAst",
+          "HtmlExpansionAst",
+          "HtmlExpansionCaseAst",
           "HtmlAst"
         ],
         "5": false
@@ -44,8 +43,7 @@
       {
         "1": "util.dart",
         "2": [
-          "dashCaseToCamelCase",
-          "camelCaseToDashCase"
+          "dashCaseToCamelCase"
         ],
         "5": false
       }
@@ -56,11 +54,7 @@
         "4": [
           {
             "1": "Injectable",
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
+            "4": false
           }
         ]
       }
@@ -73,7 +67,6 @@
       "name": "SPECIAL_CASES",
       "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "LegacyHtmlAstTransformer": {
@@ -81,7 +74,6 @@
       "name": "LegacyHtmlAstTransformer",
       "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "LegacyHtmlParser": {
@@ -90,7 +82,6 @@
       "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
       "prefix": null,
       "isHost": false,
-      "constConstructor": null,
       "value": null,
       "diDeps": []
     }

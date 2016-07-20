@@ -16,7 +16,7 @@
       }
     ],
     "6": "main.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/platform/browser_static.template.dart",
         "4": "i0"
@@ -37,7 +37,6 @@
       "name": "main",
       "moduleUrl": "asset:pipe_examples/web/main.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

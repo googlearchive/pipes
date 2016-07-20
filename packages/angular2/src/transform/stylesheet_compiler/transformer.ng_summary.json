@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "package:barback/barback.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/platform/server/html_adapter.dart",
         "5": false
       },
@@ -28,6 +24,10 @@
         "5": false
       },
       {
+        "1": "package:barback/barback.dart",
+        "5": false
+      },
+      {
         "1": "processor.dart",
         "5": false
       }
@@ -40,7 +40,6 @@
       "name": "StylesheetCompiler",
       "moduleUrl": "asset:angular2/lib/src/transform/stylesheet_compiler/transformer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

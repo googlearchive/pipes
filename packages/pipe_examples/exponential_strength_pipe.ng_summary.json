@@ -24,11 +24,7 @@
                 "2": "'exponentialStrength'"
               }
             ],
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
+            "4": false
           }
         ]
       }
@@ -44,9 +40,8 @@
         "moduleUrl": "asset:pipe_examples/lib/exponential_strength_pipe.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
-        "diDeps": null
+        "diDeps": []
       },
       "name": "exponentialStrength",
       "pure": false

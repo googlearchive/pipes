@@ -13,27 +13,7 @@
     ],
     "5": [
       {
-        "1": "HeroAsyncMessageComponent",
-        "4": [
-          {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "'hero-message'"
-              },
-              {
-                "1": "template",
-                "2": "'''\n      <h2>Async Hero Message and AsyncPipe</h2>\n      <p>Message: {{ message | async }}</p>\n      <button (click)=\"resend()\">Resend</button>\n    '''"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          }
-        ]
+        "1": "HeroAsyncMessageComponent"
       }
     ],
     "6": "hero_async_message_component.dart"
@@ -42,7 +22,6 @@
     "HeroAsyncMessageComponent": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "hero-message",
       "exportAs": null,
       "type": {
@@ -51,7 +30,6 @@
         "moduleUrl": "asset:pipe_examples/lib/hero_async_message_component.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": []
       },

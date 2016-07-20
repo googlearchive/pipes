@@ -38,31 +38,7 @@
     "5": [
       {
         "1": "AppComponent",
-        "4": [
-          {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "'my-app'"
-              },
-              {
-                "1": "templateUrl",
-                "2": "'app_component.html'"
-              },
-              {
-                "1": "directives",
-                "2": "const [FlyingHeroesComponent, FlyingHeroesImpureComponent, HeroAsyncMessageComponent, HeroBirthdayComponent, HeroBirthday2Component, HeroListComponent, PowerBoostCalculatorComponent, PowerBoosterComponent]"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          }
-        ],
-        "8": [
+        "7": [
           {
             "2": "FlyingHeroesComponent"
           },
@@ -96,7 +72,6 @@
     "AppComponent": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "my-app",
       "exportAs": null,
       "type": {
@@ -105,7 +80,6 @@
         "moduleUrl": "asset:pipe_examples/lib/app_component.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": []
       },

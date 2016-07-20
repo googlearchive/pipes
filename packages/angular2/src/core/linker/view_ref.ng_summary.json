@@ -3,9 +3,9 @@
     "1": "angular2.src.core.linker.view_ref",
     "3": [
       {
-        "1": "package:angular2/src/facade/exceptions.dart",
+        "1": "package:angular2/src/core/change_detection/constants.dart",
         "2": [
-          "unimplemented"
+          "ChangeDetectionStrategy"
         ],
         "5": false
       },
@@ -19,8 +19,7 @@
       {
         "1": "view.dart",
         "2": [
-          "AppView",
-          "HostViewFactory"
+          "AppView"
         ],
         "5": false
       }
@@ -33,15 +32,6 @@
       "name": "ViewRef",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
       "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "HostViewRef": {
-      "class": "Identifier",
-      "name": "HostViewRef",
-      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
-      "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "EmbeddedViewRef": {
@@ -49,7 +39,6 @@
       "name": "EmbeddedViewRef",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ViewRef_": {
@@ -57,23 +46,6 @@
       "name": "ViewRef_",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
       "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "HostViewFactoryRef": {
-      "class": "Identifier",
-      "name": "HostViewFactoryRef",
-      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
-      "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "HostViewFactoryRef_": {
-      "class": "Identifier",
-      "name": "HostViewFactoryRef_",
-      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
-      "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

@@ -23,7 +23,6 @@
       "name": "main",
       "moduleUrl": "asset:pipe_examples/web/main.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

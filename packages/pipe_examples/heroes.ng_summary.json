@@ -6,7 +6,6 @@
       "name": "mockHeroes",
       "moduleUrl": "asset:pipe_examples/lib/heroes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "Hero": {
@@ -14,7 +13,6 @@
       "name": "Hero",
       "moduleUrl": "asset:pipe_examples/lib/heroes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

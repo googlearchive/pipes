@@ -7,15 +7,15 @@
         "5": false
       },
       {
-        "1": "package:barback/barback.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/transform/common/annotation_matcher.dart",
         "5": false
       },
       {
         "1": "package:angular2/src/transform/common/naive_eval.dart",
+        "5": false
+      },
+      {
+        "1": "package:barback/barback.dart",
         "5": false
       }
     ],
@@ -27,7 +27,6 @@
       "name": "_defaultEntrypointName",
       "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/entrypoint_matcher.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "EntrypointMatcher": {
@@ -35,7 +34,6 @@
       "name": "EntrypointMatcher",
       "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/entrypoint_matcher.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

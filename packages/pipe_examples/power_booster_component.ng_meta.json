@@ -14,31 +14,7 @@
     "5": [
       {
         "1": "PowerBoosterComponent",
-        "4": [
-          {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "'power-booster'"
-              },
-              {
-                "1": "template",
-                "2": "'''\n      <h2>Power Booster</h2>\n      <p>Super power boost: {{2 | exponentialStrength: 10}}</p>\n    '''"
-              },
-              {
-                "1": "pipes",
-                "2": "const [ExponentialStrengthPipe]"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          }
-        ],
-        "9": [
+        "8": [
           {
             "2": "ExponentialStrengthPipe"
           }
@@ -46,7 +22,7 @@
       }
     ],
     "6": "power_booster_component.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/angular2.template.dart",
         "4": "i0"
@@ -61,7 +37,6 @@
     "PowerBoosterComponent": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "power-booster",
       "exportAs": null,
       "type": {
@@ -70,7 +45,6 @@
         "moduleUrl": "asset:pipe_examples/lib/power_booster_component.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": []
       },

@@ -5,9 +5,7 @@
       {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "stringify",
-          "isBlank",
-          "isPresent"
+          "stringify"
         ],
         "5": false
       }
@@ -20,7 +18,6 @@
       "name": "InjectMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "OptionalMetadata": {
@@ -28,7 +25,6 @@
       "name": "OptionalMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DependencyMetadata": {
@@ -36,7 +32,6 @@
       "name": "DependencyMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "InjectableMetadata": {
@@ -44,7 +39,6 @@
       "name": "InjectableMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SelfMetadata": {
@@ -52,7 +46,6 @@
       "name": "SelfMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "SkipSelfMetadata": {
@@ -60,7 +53,6 @@
       "name": "SkipSelfMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HostMetadata": {
@@ -68,7 +60,6 @@
       "name": "HostMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

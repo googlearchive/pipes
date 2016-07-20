@@ -9,27 +9,7 @@
     ],
     "5": [
       {
-        "1": "HeroBirthday2Component",
-        "4": [
-          {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "'hero-birthday2'"
-              },
-              {
-                "1": "template",
-                "2": "'''\n      <p>The hero's birthday is {{ birthday | date:format }}</p>\n      <button (click)=\"toggleFormat()\">Toggle Format</button>\n    '''"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          }
-        ]
+        "1": "HeroBirthday2Component"
       }
     ],
     "6": "hero_birthday2_component.dart"
@@ -38,7 +18,6 @@
     "HeroBirthday2Component": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "hero-birthday2",
       "exportAs": null,
       "type": {
@@ -47,7 +26,6 @@
         "moduleUrl": "asset:pipe_examples/lib/hero_birthday2_component.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": []
       },

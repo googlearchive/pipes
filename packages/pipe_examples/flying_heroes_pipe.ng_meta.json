@@ -23,11 +23,7 @@
                 "2": "'flyingHeroes'"
               }
             ],
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
+            "4": false
           }
         ]
       },
@@ -46,17 +42,13 @@
                 "2": "false"
               }
             ],
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
+            "4": false
           }
         ]
       }
     ],
     "6": "flying_heroes_pipe.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/angular2.template.dart",
         "4": "i0"
@@ -76,9 +68,8 @@
         "moduleUrl": "asset:pipe_examples/lib/flying_heroes_pipe.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
-        "diDeps": null
+        "diDeps": []
       },
       "name": "flyingHeroes",
       "pure": false
@@ -91,9 +82,8 @@
         "moduleUrl": "asset:pipe_examples/lib/flying_heroes_pipe.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
-        "diDeps": null
+        "diDeps": []
       },
       "name": "flyingHeroes",
       "pure": false

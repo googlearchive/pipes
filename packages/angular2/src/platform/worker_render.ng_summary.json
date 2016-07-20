@@ -3,21 +3,11 @@
     "1": "angular2.src.platform.worker_render",
     "3": [
       {
-        "1": "package:angular2/src/platform/worker_render_common.dart",
-        "2": [
-          "WORKER_RENDER_APPLICATION_COMMON",
-          "WORKER_RENDER_MESSAGING_PROVIDERS",
-          "WORKER_SCRIPT",
-          "initializeGenericWorkerRenderer"
-        ],
+        "1": "dart:async",
         "5": false
       },
       {
-        "1": "package:angular2/src/web_workers/shared/isolate_message_bus.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/web_workers/shared/message_bus.dart",
+        "1": "dart:isolate",
         "5": false
       },
       {
@@ -29,15 +19,19 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.dart",
+        "1": "package:angular2/src/platform/worker_render_common.dart",
+        "2": [
+          "WORKER_RENDER_APPLICATION_COMMON",
+          "initializeGenericWorkerRenderer"
+        ],
         "5": false
       },
       {
-        "1": "dart:isolate",
+        "1": "package:angular2/src/web_workers/shared/isolate_message_bus.dart",
         "5": false
       },
       {
-        "1": "dart:async",
+        "1": "package:angular2/src/web_workers/shared/message_bus.dart",
         "5": false
       }
     ],
@@ -49,7 +43,6 @@
       "name": "WORKER_RENDER_APP",
       "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "initIsolate": {
@@ -57,7 +50,6 @@
       "name": "initIsolate",
       "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "spawnIsolate": {
@@ -65,7 +57,6 @@
       "name": "spawnIsolate",
       "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "UIMessageBusSource": {
@@ -73,7 +64,6 @@
       "name": "UIMessageBusSource",
       "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "WebWorkerInstance": {
@@ -81,7 +71,6 @@
       "name": "WebWorkerInstance",
       "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },
