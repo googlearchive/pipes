@@ -44,7 +44,7 @@
         "diDeps": []
       },
       "name": "exponentialStrength",
-      "pure": false
+      "pure": true
     }
   },
   "alias": {}

@@ -62,7 +62,7 @@
         "diDeps": []
       },
       "name": "flyingHeroes",
-      "pure": false
+      "pure": true
     },
     "FlyingHeroesImpurePipe": {
       "class": "Pipe",
