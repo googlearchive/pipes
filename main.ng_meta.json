@@ -9,10 +9,6 @@
       {
         "1": "package:pipe_examples/app_component.dart",
         "5": false
-      },
-      {
-        "1": "package:pipe_examples/hero_birthday1_component.dart",
-        "5": false
       }
     ],
     "6": "main.dart",
@@ -24,10 +20,6 @@
       {
         "1": "package:pipe_examples/app_component.template.dart",
         "4": "i1"
-      },
-      {
-        "1": "package:pipe_examples/hero_birthday1_component.template.dart",
-        "4": "i2"
       }
     ]
   },
