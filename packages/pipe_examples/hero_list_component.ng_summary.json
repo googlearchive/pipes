@@ -48,7 +48,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "      <h4>Heroes from JSON File</h4>\n\n      <div *ngFor=\"let hero of ('heroes.json' | fetch) \">\n        {{hero['name']}}\n      </div>\n\n      <p>Heroes as JSON:\n      {{'heroes.json' | fetch | json}}\n      </p>\n    ",
+        "template": "      <h2>Heroes from JSON File</h2>\n\n      <div *ngFor=\"let hero of ('heroes.json' | fetch) \">\n        {{hero['name']}}\n      </div>\n\n      <p>Heroes as JSON: {{'heroes.json' | fetch | json}}</p>\n    ",
         "templateUrl": "asset:pipe_examples/lib/hero_list_component.dart",
         "styles": [],
         "styleUrls": [],
