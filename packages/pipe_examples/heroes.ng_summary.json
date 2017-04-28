@@ -1,16 +1,16 @@
 {
   "ngDeps": null,
   "type": {
-    "mockHeroes": {
+    "Hero": {
       "class": "Identifier",
-      "name": "mockHeroes",
+      "name": "Hero",
       "moduleUrl": "asset:pipe_examples/lib/heroes.dart",
       "prefix": null,
       "value": null
     },
-    "Hero": {
+    "mockHeroes": {
       "class": "Identifier",
-      "name": "Hero",
+      "name": "mockHeroes",
       "moduleUrl": "asset:pipe_examples/lib/heroes.dart",
       "prefix": null,
       "value": null

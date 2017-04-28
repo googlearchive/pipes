@@ -17,11 +17,8 @@
         "4": [
           {
             "1": "Pipe",
-            "3": [
-              {
-                "1": "name",
-                "2": "'flyingHeroes'"
-              }
+            "2": [
+              "'flyingHeroes'"
             ],
             "4": false
           }
@@ -32,11 +29,10 @@
         "4": [
           {
             "1": "Pipe",
+            "2": [
+              "'flyingHeroes'"
+            ],
             "3": [
-              {
-                "1": "name",
-                "2": "'flyingHeroes'"
-              },
               {
                 "1": "pure",
                 "2": "false"
@@ -60,20 +56,6 @@
     ]
   },
   "type": {
-    "FlyingHeroesPipe": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "FlyingHeroesPipe",
-        "moduleUrl": "asset:pipe_examples/lib/flying_heroes_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "value": null,
-        "diDeps": []
-      },
-      "name": "flyingHeroes",
-      "pure": true
-    },
     "FlyingHeroesImpurePipe": {
       "class": "Pipe",
       "type": {
@@ -87,6 +69,20 @@
       },
       "name": "flyingHeroes",
       "pure": false
+    },
+    "FlyingHeroesPipe": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "FlyingHeroesPipe",
+        "moduleUrl": "asset:pipe_examples/lib/flying_heroes_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": []
+      },
+      "name": "flyingHeroes",
+      "pure": true
     }
   },
   "alias": {}

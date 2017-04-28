@@ -18,11 +18,8 @@
         "4": [
           {
             "1": "Pipe",
-            "3": [
-              {
-                "1": "name",
-                "2": "'exponentialStrength'"
-              }
+            "2": [
+              "'exponentialStrength'"
             ],
             "4": false
           }
