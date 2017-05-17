@@ -11338,21 +11338,21 @@ v4:{"^":"v;fx,fy,go,id,k1,k2,a,b,c,d,e,f,r,x,y,z,Q,ch,cx,cy,db,dx,dy,fr",
 q:function(){var z,y,x,w
 z=this.b5(this.r)
 y=document
-z.appendChild(y.createTextNode("      "))
+z.appendChild(y.createTextNode("    "))
 x=S.p(y,"h2",z)
 this.fx=x
 x.appendChild(y.createTextNode("Async Hero Message and AsyncPipe"))
-z.appendChild(y.createTextNode("\n      "))
+z.appendChild(y.createTextNode("\n    "))
 x=S.p(y,"p",z)
 this.fy=x
 w=y.createTextNode("")
 this.go=w
 x.appendChild(w)
-z.appendChild(y.createTextNode("\n      "))
+z.appendChild(y.createTextNode("\n    "))
 w=S.p(y,"button",z)
 this.id=w
 w.appendChild(y.createTextNode("Resend"))
-z.appendChild(y.createTextNode("\n    "))
+z.appendChild(y.createTextNode("\n  "))
 y=this.id
 w=this.b9(this.db.gnu())
 J.bi(y,"click",w,null)
@@ -11681,11 +11681,11 @@ vd:{"^":"v;fx,fy,go,id,k1,k2,k3,k4,r1,r2,rx,ry,x1,x2,y1,y2,as,ay,aG,ae,a,b,c,d,e
 q:function(){var z,y,x,w,v,u
 z=this.b5(this.r)
 y=document
-z.appendChild(y.createTextNode("      "))
+z.appendChild(y.createTextNode("    "))
 x=S.p(y,"h2",z)
 this.fx=x
 x.appendChild(y.createTextNode("Power Boost Calculator"))
-z.appendChild(y.createTextNode("\n      "))
+z.appendChild(y.createTextNode("\n    "))
 x=S.p(y,"div",z)
 this.fy=x
 x.appendChild(y.createTextNode("Normal power: "))
@@ -11702,7 +11702,7 @@ this.k2=x
 w=new U.bU(null,Z.bR(null,null),B.aA(!1,null),null,null,null,null)
 w.b=X.bO(w,x)
 this.k3=w
-z.appendChild(y.createTextNode("\n      "))
+z.appendChild(y.createTextNode("\n    "))
 w=S.p(y,"div",z)
 this.k4=w
 w.appendChild(y.createTextNode("Boost factor: "))
@@ -11719,13 +11719,13 @@ this.ry=w
 x=new U.bU(null,Z.bR(null,null),B.aA(!1,null),null,null,null,null)
 x.b=X.bO(x,w)
 this.x1=x
-z.appendChild(y.createTextNode("\n      "))
+z.appendChild(y.createTextNode("\n    "))
 x=S.p(y,"p",z)
 this.x2=x
 w=y.createTextNode("")
 this.y1=w
 x.appendChild(w)
-z.appendChild(y.createTextNode("\n    "))
+z.appendChild(y.createTextNode("\n  "))
 y=this.gkw()
 this.a8(this.go,"ngModelChange",y)
 this.a8(this.go,"input",this.gks())
@@ -11787,7 +11787,7 @@ t.bX(!1)}y.a=!1
 v=this.ae
 t=this.aG
 t.gW(t)
-r=Q.ax("\n        Super Hero Power: ",y.a9(v.$2(x.gf3(),x.geO())),"\n      ")
+r=Q.ax("\n      Super Hero Power: ",y.a9(v.$2(x.gf3(),x.geO())),"\n    ")
 if(!y.a){v=this.ay
 v=!(v===r)}else v=!0
 if(v){this.y1.textContent=r

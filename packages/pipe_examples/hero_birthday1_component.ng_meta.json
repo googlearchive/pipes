@@ -9,7 +9,12 @@
     ],
     "5": [
       {
-        "1": "HeroBirthdayComponent"
+        "1": "HeroBirthdayComponent",
+        "8": [
+          {
+            "2": "COMMON_PIPES"
+          }
+        ]
       }
     ],
     "6": "hero_birthday1_component.dart",

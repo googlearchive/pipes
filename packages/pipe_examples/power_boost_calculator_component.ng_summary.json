@@ -14,6 +14,11 @@
     "5": [
       {
         "1": "PowerBoostCalculatorComponent",
+        "7": [
+          {
+            "2": "COMMON_DIRECTIVES"
+          }
+        ],
         "8": [
           {
             "2": "ExponentialStrengthPipe"
@@ -48,7 +53,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "      <h2>Power Boost Calculator</h2>\n      <div>Normal power: <input type=\"number\" [(ngModel)]=\"power\"/></div>\n      <div>Boost factor: <input type=\"number\" [(ngModel)]=\"factor\"/></div>\n      <p>\n        Super Hero Power: {{power | exponentialStrength: factor}}\n      </p>\n    ",
+        "template": "    <h2>Power Boost Calculator</h2>\n    <div>Normal power: <input type=\"number\" [(ngModel)]=\"power\"/></div>\n    <div>Boost factor: <input type=\"number\" [(ngModel)]=\"factor\"/></div>\n    <p>\n      Super Hero Power: {{power | exponentialStrength: factor}}\n    </p>\n  ",
         "templateUrl": "asset:pipe_examples/lib/power_boost_calculator_component.dart",
         "styles": [],
         "styleUrls": [],

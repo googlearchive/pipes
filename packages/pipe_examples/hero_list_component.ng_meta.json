@@ -14,7 +14,15 @@
     "5": [
       {
         "1": "HeroListComponent",
+        "7": [
+          {
+            "2": "CORE_DIRECTIVES"
+          }
+        ],
         "8": [
+          {
+            "2": "COMMON_PIPES"
+          },
           {
             "2": "FetchJsonPipe"
           }
