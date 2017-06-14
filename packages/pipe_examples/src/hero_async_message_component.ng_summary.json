@@ -32,7 +32,7 @@
       "type": {
         "class": "Type",
         "name": "HeroAsyncMessageComponent",
-        "moduleUrl": "asset:pipe_examples/lib/hero_async_message_component.dart",
+        "moduleUrl": "asset:pipe_examples/lib/src/hero_async_message_component.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
@@ -49,7 +49,7 @@
       "template": {
         "encapsulation": 2,
         "template": "    <h2>Async Hero Message and AsyncPipe</h2>\n    <p>Message: {{ message | async }}</p>\n    <button (click)=\"resend()\">Resend</button>\n  ",
-        "templateUrl": "asset:pipe_examples/lib/hero_async_message_component.dart",
+        "templateUrl": "asset:pipe_examples/lib/src/hero_async_message_component.dart",
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []

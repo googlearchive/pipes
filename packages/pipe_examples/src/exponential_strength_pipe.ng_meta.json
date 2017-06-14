@@ -3,11 +3,8 @@
     "1": "",
     "3": [
       {
-        "1": "dart:convert",
-        "5": false
-      },
-      {
-        "1": "dart:html",
+        "1": "dart:math",
+        "4": "math",
         "5": false
       },
       {
@@ -17,40 +14,40 @@
     ],
     "5": [
       {
-        "1": "FetchJsonPipe",
+        "1": "ExponentialStrengthPipe",
         "4": [
           {
             "1": "Pipe",
             "2": [
-              "'fetch'"
-            ],
-            "3": [
-              {
-                "1": "pure",
-                "2": "false"
-              }
+              "'exponentialStrength'"
             ],
             "4": false
           }
         ]
       }
     ],
-    "6": "fetch_json_pipe.dart"
+    "6": "exponential_strength_pipe.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      }
+    ]
   },
   "type": {
-    "FetchJsonPipe": {
+    "ExponentialStrengthPipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
-        "name": "FetchJsonPipe",
-        "moduleUrl": "asset:pipe_examples/lib/fetch_json_pipe.dart",
+        "name": "ExponentialStrengthPipe",
+        "moduleUrl": "asset:pipe_examples/lib/src/exponential_strength_pipe.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
         "diDeps": []
       },
-      "name": "fetch",
-      "pure": false
+      "name": "exponentialStrength",
+      "pure": true
     }
   },
   "alias": {}

@@ -26,13 +26,7 @@
         ]
       }
     ],
-    "6": "exponential_strength_pipe.dart",
-    "7": [
-      {
-        "1": "package:angular2/angular2.template.dart",
-        "4": "i0"
-      }
-    ]
+    "6": "exponential_strength_pipe.dart"
   },
   "type": {
     "ExponentialStrengthPipe": {
@@ -40,7 +34,7 @@
       "type": {
         "class": "Type",
         "name": "ExponentialStrengthPipe",
-        "moduleUrl": "asset:pipe_examples/lib/exponential_strength_pipe.dart",
+        "moduleUrl": "asset:pipe_examples/lib/src/exponential_strength_pipe.dart",
         "prefix": null,
         "isHost": false,
         "value": null,

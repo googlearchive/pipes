@@ -43,17 +43,7 @@
         ]
       }
     ],
-    "6": "flying_heroes_pipe.dart",
-    "7": [
-      {
-        "1": "package:angular2/angular2.template.dart",
-        "4": "i0"
-      },
-      {
-        "1": "heroes.template.dart",
-        "4": "i1"
-      }
-    ]
+    "6": "flying_heroes_pipe.dart"
   },
   "type": {
     "FlyingHeroesImpurePipe": {
@@ -61,7 +51,7 @@
       "type": {
         "class": "Type",
         "name": "FlyingHeroesImpurePipe",
-        "moduleUrl": "asset:pipe_examples/lib/flying_heroes_pipe.dart",
+        "moduleUrl": "asset:pipe_examples/lib/src/flying_heroes_pipe.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
@@ -75,7 +65,7 @@
       "type": {
         "class": "Type",
         "name": "FlyingHeroesPipe",
-        "moduleUrl": "asset:pipe_examples/lib/flying_heroes_pipe.dart",
+        "moduleUrl": "asset:pipe_examples/lib/src/flying_heroes_pipe.dart",
         "prefix": null,
         "isHost": false,
         "value": null,

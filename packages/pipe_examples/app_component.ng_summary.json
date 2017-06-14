@@ -7,31 +7,31 @@
         "5": false
       },
       {
-        "1": "flying_heroes_component.dart",
+        "1": "src/flying_heroes_component.dart",
         "5": false
       },
       {
-        "1": "hero_async_message_component.dart",
+        "1": "src/hero_async_message_component.dart",
         "5": false
       },
       {
-        "1": "hero_birthday1_component.dart",
+        "1": "src/hero_birthday1_component.dart",
         "5": false
       },
       {
-        "1": "hero_birthday2_component.dart",
+        "1": "src/hero_birthday2_component.dart",
         "5": false
       },
       {
-        "1": "hero_list_component.dart",
+        "1": "src/hero_list_component.dart",
         "5": false
       },
       {
-        "1": "power_boost_calculator_component.dart",
+        "1": "src/power_boost_calculator_component.dart",
         "5": false
       },
       {
-        "1": "power_booster_component.dart",
+        "1": "src/power_booster_component.dart",
         "5": false
       }
     ],

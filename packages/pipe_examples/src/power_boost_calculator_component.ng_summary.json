@@ -37,7 +37,7 @@
       "type": {
         "class": "Type",
         "name": "PowerBoostCalculatorComponent",
-        "moduleUrl": "asset:pipe_examples/lib/power_boost_calculator_component.dart",
+        "moduleUrl": "asset:pipe_examples/lib/src/power_boost_calculator_component.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
@@ -54,7 +54,7 @@
       "template": {
         "encapsulation": 2,
         "template": "    <h2>Power Boost Calculator</h2>\n    <div>Normal power: <input type=\"number\" [(ngModel)]=\"power\"/></div>\n    <div>Boost factor: <input type=\"number\" [(ngModel)]=\"factor\"/></div>\n    <p>\n      Super Hero Power: {{power | exponentialStrength: factor}}\n    </p>\n  ",
-        "templateUrl": "asset:pipe_examples/lib/power_boost_calculator_component.dart",
+        "templateUrl": "asset:pipe_examples/lib/src/power_boost_calculator_component.dart",
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []

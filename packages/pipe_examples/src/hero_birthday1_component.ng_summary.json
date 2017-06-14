@@ -9,7 +9,7 @@
     ],
     "5": [
       {
-        "1": "HeroBirthday2Component",
+        "1": "HeroBirthdayComponent",
         "8": [
           {
             "2": "COMMON_PIPES"
@@ -17,24 +17,18 @@
         ]
       }
     ],
-    "6": "hero_birthday2_component.dart",
-    "7": [
-      {
-        "1": "package:angular2/angular2.template.dart",
-        "4": "i0"
-      }
-    ]
+    "6": "hero_birthday1_component.dart"
   },
   "type": {
-    "HeroBirthday2Component": {
+    "HeroBirthdayComponent": {
       "class": "Directive",
       "isComponent": true,
-      "selector": "hero-birthday2",
+      "selector": "hero-birthday",
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "HeroBirthday2Component",
-        "moduleUrl": "asset:pipe_examples/lib/hero_birthday2_component.dart",
+        "name": "HeroBirthdayComponent",
+        "moduleUrl": "asset:pipe_examples/lib/src/hero_birthday1_component.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
@@ -50,8 +44,8 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "      <p>The hero's birthday is {{ birthday | date:format }}</p>\n      <button (click)=\"toggleFormat()\">Toggle Format</button>\n    ",
-        "templateUrl": "asset:pipe_examples/lib/hero_birthday2_component.dart",
+        "template": "<p>The hero's birthday is {{ birthday | date }}</p>",
+        "templateUrl": "asset:pipe_examples/lib/src/hero_birthday1_component.dart",
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []

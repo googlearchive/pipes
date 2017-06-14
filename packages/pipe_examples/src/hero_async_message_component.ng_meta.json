@@ -3,13 +3,17 @@
     "1": "",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/angular2.dart",
         "5": false
       }
     ],
     "5": [
       {
-        "1": "HeroBirthdayComponent",
+        "1": "HeroAsyncMessageComponent",
         "8": [
           {
             "2": "COMMON_PIPES"
@@ -17,18 +21,24 @@
         ]
       }
     ],
-    "6": "hero_birthday1_component.dart"
+    "6": "hero_async_message_component.dart",
+    "7": [
+      {
+        "1": "package:angular2/angular2.template.dart",
+        "4": "i0"
+      }
+    ]
   },
   "type": {
-    "HeroBirthdayComponent": {
+    "HeroAsyncMessageComponent": {
       "class": "Directive",
       "isComponent": true,
-      "selector": "hero-birthday",
+      "selector": "hero-message",
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "HeroBirthdayComponent",
-        "moduleUrl": "asset:pipe_examples/lib/hero_birthday1_component.dart",
+        "name": "HeroAsyncMessageComponent",
+        "moduleUrl": "asset:pipe_examples/lib/src/hero_async_message_component.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
@@ -44,8 +54,8 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<p>The hero's birthday is {{ birthday | date }}</p>",
-        "templateUrl": "asset:pipe_examples/lib/hero_birthday1_component.dart",
+        "template": "    <h2>Async Hero Message and AsyncPipe</h2>\n    <p>Message: {{ message | async }}</p>\n    <button (click)=\"resend()\">Resend</button>\n  ",
+        "templateUrl": "asset:pipe_examples/lib/src/hero_async_message_component.dart",
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []

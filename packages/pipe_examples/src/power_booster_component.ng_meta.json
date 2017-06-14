@@ -7,50 +7,42 @@
         "5": false
       },
       {
-        "1": "fetch_json_pipe.dart",
+        "1": "exponential_strength_pipe.dart",
         "5": false
       }
     ],
     "5": [
       {
-        "1": "HeroListComponent",
-        "7": [
-          {
-            "2": "CORE_DIRECTIVES"
-          }
-        ],
+        "1": "PowerBoosterComponent",
         "8": [
           {
-            "2": "COMMON_PIPES"
-          },
-          {
-            "2": "FetchJsonPipe"
+            "2": "ExponentialStrengthPipe"
           }
         ]
       }
     ],
-    "6": "hero_list_component.dart",
+    "6": "power_booster_component.dart",
     "7": [
       {
         "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "fetch_json_pipe.template.dart",
+        "1": "exponential_strength_pipe.template.dart",
         "4": "i1"
       }
     ]
   },
   "type": {
-    "HeroListComponent": {
+    "PowerBoosterComponent": {
       "class": "Directive",
       "isComponent": true,
-      "selector": "hero-list",
+      "selector": "power-booster",
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "HeroListComponent",
-        "moduleUrl": "asset:pipe_examples/lib/hero_list_component.dart",
+        "name": "PowerBoosterComponent",
+        "moduleUrl": "asset:pipe_examples/lib/src/power_booster_component.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
@@ -66,8 +58,8 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "      <h2>Heroes from JSON File</h2>\n\n      <div *ngFor=\"let hero of ('heroes.json' | fetch) \">\n        {{hero['name']}}\n      </div>\n\n      <p>Heroes as JSON: {{'heroes.json' | fetch | json}}</p>\n    ",
-        "templateUrl": "asset:pipe_examples/lib/hero_list_component.dart",
+        "template": "      <h2>Power Booster</h2>\n      <p>Super power boost: {{2 | exponentialStrength: 10}}</p>\n    ",
+        "templateUrl": "asset:pipe_examples/lib/src/power_booster_component.dart",
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []
