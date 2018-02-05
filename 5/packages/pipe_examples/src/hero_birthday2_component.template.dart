@@ -27,8 +27,8 @@ const List<dynamic> styles$HeroBirthday2Component = const [];
 
 class ViewHeroBirthday2Component0 extends AppView<import1.HeroBirthday2Component> {
   import2.Element _el_0;
-  import2.Text _text_1;
-  import2.ButtonElement _el_2;
+  import2.Text _text_2;
+  import2.ButtonElement _el_3;
   var _expr_0;
   import3.DatePipe _pipe_date_0;
   String Function(dynamic, String) _pipe_date_0_0;
@@ -43,12 +43,14 @@ class ViewHeroBirthday2Component0 extends AppView<import1.HeroBirthday2Component
     final import2.HtmlElement parentRenderNode = initViewRoot(rootEl);
     var doc = import2.document;
     _el_0 = createAndAppend(doc, 'p', parentRenderNode);
-    _text_1 = new import2.Text('');
+    import2.Text _text_1 = new import2.Text('The hero\'s birthday is ');
     _el_0.append(_text_1);
-    _el_2 = createAndAppend(doc, 'button', parentRenderNode);
-    import2.Text _text_3 = new import2.Text('Toggle Format');
-    _el_2.append(_text_3);
-    _el_2.addEventListener('click', eventHandler0(ctx.toggleFormat));
+    _text_2 = new import2.Text('');
+    _el_0.append(_text_2);
+    _el_3 = createAndAppend(doc, 'button', parentRenderNode);
+    import2.Text _text_4 = new import2.Text('Toggle Format');
+    _el_3.append(_text_4);
+    _el_3.addEventListener('click', eventHandler0(ctx.toggleFormat));
     _pipe_date_0 = new import3.DatePipe();
     _pipe_date_0_0 = import8.pureProxy2(_pipe_date_0.transform);
     init(const [], null);
@@ -58,9 +60,9 @@ class ViewHeroBirthday2Component0 extends AppView<import1.HeroBirthday2Component
   @override
   void detectChangesInternal() {
     final import1.HeroBirthday2Component _ctx = ctx;
-    final currVal_0 = import8.interpolate1('The hero\'s birthday is ', _pipe_date_0_0(_ctx.birthday, _ctx.format), '');
+    final currVal_0 = import8.interpolate0(_pipe_date_0_0(_ctx.birthday, _ctx.format));
     if (!identical(_expr_0, currVal_0)) {
-      _text_1.text = currVal_0;
+      _text_2.text = currVal_0;
       _expr_0 = currVal_0;
     }
   }

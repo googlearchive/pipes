@@ -35,7 +35,7 @@ class ViewHeroListComponent0 extends AppView<import1.HeroListComponent> {
   ViewContainer _appEl_2;
   import4.NgFor _NgFor_2_7;
   import2.Element _el_3;
-  import2.Text _text_4;
+  import2.Text _text_5;
   var _expr_0;
   var _expr_1;
   import5.FetchJsonPipe _pipe_fetch_0;
@@ -60,8 +60,10 @@ class ViewHeroListComponent0 extends AppView<import1.HeroListComponent> {
     TemplateRef _TemplateRef_2_6 = new TemplateRef(_appEl_2, viewFactory_HeroListComponent1);
     _NgFor_2_7 = new import4.NgFor(_appEl_2, _TemplateRef_2_6);
     _el_3 = createAndAppend(doc, 'p', parentRenderNode);
-    _text_4 = new import2.Text('');
+    import2.Text _text_4 = new import2.Text('Heroes as JSON: ');
     _el_3.append(_text_4);
+    _text_5 = new import2.Text('');
+    _el_3.append(_text_5);
     _pipe_fetch_0 = new import5.FetchJsonPipe();
     _pipe_fetch_1 = new import5.FetchJsonPipe();
     _pipe_json_2 = new import6.JsonPipe();
@@ -78,9 +80,9 @@ class ViewHeroListComponent0 extends AppView<import1.HeroListComponent> {
     }
     _NgFor_2_7.ngDoCheck();
     _appEl_2.detectChangesInNestedViews();
-    final currVal_1 = import10.interpolate1('Heroes as JSON: ', _pipe_json_2.transform(_pipe_fetch_1.transform('heroes.json')), '');
+    final currVal_1 = import10.interpolate0(_pipe_json_2.transform(_pipe_fetch_1.transform('heroes.json')));
     if (!identical(_expr_1, currVal_1)) {
-      _text_4.text = currVal_1;
+      _text_5.text = currVal_1;
       _expr_1 = currVal_1;
     }
   }

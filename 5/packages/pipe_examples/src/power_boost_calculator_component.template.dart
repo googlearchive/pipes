@@ -50,7 +50,7 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
   List<dynamic> _NgValueAccessor_7_6;
   import5.NgModel _NgModel_7_7;
   import2.Element _el_8;
-  import2.Text _text_9;
+  import2.Text _text_10;
   var _expr_2;
   import6.ExponentialStrengthPipe _pipe_exponentialStrength_0;
   num Function(num, num) _pipe_exponentialStrength_0_0;
@@ -86,8 +86,10 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
     _NgValueAccessor_7_6 = [_DefaultValueAccessor_7_4, _NumberValueAccessor_7_5];
     _NgModel_7_7 = new import5.NgModel(null, _NgValueAccessor_7_6);
     _el_8 = createAndAppend(doc, 'p', parentRenderNode);
-    _text_9 = new import2.Text('');
+    import2.Text _text_9 = new import2.Text('Super Hero Power: ');
     _el_8.append(_text_9);
+    _text_10 = new import2.Text('');
+    _el_8.append(_text_10);
     _el_4.addEventListener('input', eventHandler1(_handle_input_4_1));
     _el_4.addEventListener('blur', eventHandler1(_handle_blur_4_2));
     _el_4.addEventListener('change', eventHandler1(_handle_change_4_3));
@@ -148,9 +150,9 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
     if (firstCheck) {
       _NgModel_7_7.ngOnInit();
     }
-    final currVal_2 = import11.interpolate1('Super Hero Power: ', _pipe_exponentialStrength_0_0(_ctx.power, _ctx.factor), '');
+    final currVal_2 = import11.interpolate0(_pipe_exponentialStrength_0_0(_ctx.power, _ctx.factor));
     if (!identical(_expr_2, currVal_2)) {
-      _text_9.text = currVal_2;
+      _text_10.text = currVal_2;
       _expr_2 = currVal_2;
     }
   }

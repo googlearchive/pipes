@@ -30,7 +30,7 @@ const List<dynamic> styles$PowerBoosterComponent = const [];
 class ViewPowerBoosterComponent0 extends AppView<import1.PowerBoosterComponent> {
   import2.Element _el_0;
   import2.Element _el_2;
-  import2.Text _text_3;
+  import2.Text _text_4;
   var _expr_0;
   import3.ExponentialStrengthPipe _pipe_exponentialStrength_0;
   num Function(num, num) _pipe_exponentialStrength_0_0;
@@ -48,8 +48,10 @@ class ViewPowerBoosterComponent0 extends AppView<import1.PowerBoosterComponent> 
     import2.Text _text_1 = new import2.Text('Power Booster');
     _el_0.append(_text_1);
     _el_2 = createAndAppend(doc, 'p', parentRenderNode);
-    _text_3 = new import2.Text('');
+    import2.Text _text_3 = new import2.Text('Super power boost: ');
     _el_2.append(_text_3);
+    _text_4 = new import2.Text('');
+    _el_2.append(_text_4);
     _pipe_exponentialStrength_0 = new import3.ExponentialStrengthPipe();
     _pipe_exponentialStrength_0_0 = import8.pureProxy2(_pipe_exponentialStrength_0.transform);
     init(const [], null);
@@ -58,9 +60,9 @@ class ViewPowerBoosterComponent0 extends AppView<import1.PowerBoosterComponent> 
 
   @override
   void detectChangesInternal() {
-    final currVal_0 = import8.interpolate1('Super power boost: ', _pipe_exponentialStrength_0_0(2, 10), '');
+    final currVal_0 = import8.interpolate0(_pipe_exponentialStrength_0_0(2, 10));
     if (!identical(_expr_0, currVal_0)) {
-      _text_3.text = currVal_0;
+      _text_4.text = currVal_0;
       _expr_0 = currVal_0;
     }
   }

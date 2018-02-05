@@ -27,7 +27,7 @@ const List<dynamic> styles$HeroBirthdayComponent = const [];
 
 class ViewHeroBirthdayComponent0 extends AppView<import1.HeroBirthdayComponent> {
   import2.Element _el_0;
-  import2.Text _text_1;
+  import2.Text _text_2;
   var _expr_0;
   import3.DatePipe _pipe_date_0;
   String Function(dynamic) _pipe_date_0_0;
@@ -42,8 +42,10 @@ class ViewHeroBirthdayComponent0 extends AppView<import1.HeroBirthdayComponent> 
     final import2.HtmlElement parentRenderNode = initViewRoot(rootEl);
     var doc = import2.document;
     _el_0 = createAndAppend(doc, 'p', parentRenderNode);
-    _text_1 = new import2.Text('');
+    import2.Text _text_1 = new import2.Text('The hero\'s birthday is ');
     _el_0.append(_text_1);
+    _text_2 = new import2.Text('');
+    _el_0.append(_text_2);
     _pipe_date_0 = new import3.DatePipe();
     _pipe_date_0_0 = import8.pureProxy1(_pipe_date_0.transform);
     init(const [], null);
@@ -53,9 +55,9 @@ class ViewHeroBirthdayComponent0 extends AppView<import1.HeroBirthdayComponent> 
   @override
   void detectChangesInternal() {
     final import1.HeroBirthdayComponent _ctx = ctx;
-    final currVal_0 = import8.interpolate1('The hero\'s birthday is ', _pipe_date_0_0(_ctx.birthday), '');
+    final currVal_0 = import8.interpolate0(_pipe_date_0_0(_ctx.birthday));
     if (!identical(_expr_0, currVal_0)) {
-      _text_1.text = currVal_0;
+      _text_2.text = currVal_0;
       _expr_0 = currVal_0;
     }
   }

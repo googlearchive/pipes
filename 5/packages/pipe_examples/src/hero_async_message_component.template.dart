@@ -28,8 +28,8 @@ const List<dynamic> styles$HeroAsyncMessageComponent = const [];
 class ViewHeroAsyncMessageComponent0 extends AppView<import1.HeroAsyncMessageComponent> {
   import2.Element _el_0;
   import2.Element _el_2;
-  import2.Text _text_3;
-  import2.ButtonElement _el_4;
+  import2.Text _text_4;
+  import2.ButtonElement _el_5;
   var _expr_0;
   import3.AsyncPipe _pipe_async_0;
   static RenderComponentType _renderType;
@@ -46,12 +46,14 @@ class ViewHeroAsyncMessageComponent0 extends AppView<import1.HeroAsyncMessageCom
     import2.Text _text_1 = new import2.Text('Async Hero Message and AsyncPipe');
     _el_0.append(_text_1);
     _el_2 = createAndAppend(doc, 'p', parentRenderNode);
-    _text_3 = new import2.Text('');
+    import2.Text _text_3 = new import2.Text('Message: ');
     _el_2.append(_text_3);
-    _el_4 = createAndAppend(doc, 'button', parentRenderNode);
-    import2.Text _text_5 = new import2.Text('Resend');
-    _el_4.append(_text_5);
-    _el_4.addEventListener('click', eventHandler0(ctx.resend));
+    _text_4 = new import2.Text('');
+    _el_2.append(_text_4);
+    _el_5 = createAndAppend(doc, 'button', parentRenderNode);
+    import2.Text _text_6 = new import2.Text('Resend');
+    _el_5.append(_text_6);
+    _el_5.addEventListener('click', eventHandler0(ctx.resend));
     _pipe_async_0 = new import3.AsyncPipe(ref);
     init(const [], null);
     return null;
@@ -60,9 +62,9 @@ class ViewHeroAsyncMessageComponent0 extends AppView<import1.HeroAsyncMessageCom
   @override
   void detectChangesInternal() {
     final import1.HeroAsyncMessageComponent _ctx = ctx;
-    final currVal_0 = import7.interpolate1('Message: ', _pipe_async_0.transform(_ctx.message), '');
+    final currVal_0 = import7.interpolate0(_pipe_async_0.transform(_ctx.message));
     if (!identical(_expr_0, currVal_0)) {
-      _text_3.text = currVal_0;
+      _text_4.text = currVal_0;
       _expr_0 = currVal_0;
     }
   }
