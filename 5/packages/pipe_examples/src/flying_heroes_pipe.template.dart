@@ -9,7 +9,6 @@ import 'flying_heroes_pipe.dart';
 export 'flying_heroes_pipe.dart';
 import 'package:angular/angular.dart';
 import 'heroes.dart';
-// Required for initReflector().
 import 'heroes.template.dart' as _ref0;
 import 'package:angular/angular.template.dart' as _ref1;
 
@@ -19,6 +18,7 @@ void initReflector() {
     return;
   }
   _visited = true;
+
   _ref0.initReflector();
   _ref1.initReflector();
 }

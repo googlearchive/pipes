@@ -11,13 +11,11 @@ import 'package:angular/angular.dart';
 import 'package:angular_forms/angular_forms.dart';
 import 'flying_heroes_pipe.dart';
 import 'heroes.dart';
-// Required for initReflector().
 import 'package:angular/src/di/reflector.dart' as _ngRef;
 import 'flying_heroes_pipe.template.dart' as _ref0;
 import 'heroes.template.dart' as _ref1;
 import 'package:angular/angular.template.dart' as _ref2;
 import 'package:angular_forms/angular_forms.template.dart' as _ref3;
-
 import 'package:angular/src/core/linker/app_view.dart';
 import 'flying_heroes_component.dart' as import1;
 import 'dart:html' as import2;
@@ -672,16 +670,11 @@ void initReflector() {
     return;
   }
   _visited = true;
+
+  _ngRef.registerComponent(FlyingHeroesComponent, FlyingHeroesComponentNgFactory);
+  _ngRef.registerComponent(FlyingHeroesImpureComponent, FlyingHeroesImpureComponentNgFactory);
   _ref0.initReflector();
   _ref1.initReflector();
   _ref2.initReflector();
   _ref3.initReflector();
-  _ngRef.registerComponent(
-    FlyingHeroesComponent,
-    FlyingHeroesComponentNgFactory,
-  );
-  _ngRef.registerComponent(
-    FlyingHeroesImpureComponent,
-    FlyingHeroesImpureComponentNgFactory,
-  );
 }
