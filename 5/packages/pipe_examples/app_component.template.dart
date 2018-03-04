@@ -1,7 +1,5 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 // **************************************************************************
-// Generator: TemplateGenerator
+// Generator: Instance of 'Compiler'
 // **************************************************************************
 
 // ignore_for_file: cancel_subscriptions,constant_identifier_names,duplicate_import,non_constant_identifier_names,library_prefixes,UNUSED_IMPORT,UNUSED_SHOWN_NAME
@@ -80,7 +78,7 @@ class ViewAppComponent0 extends AppView<import1.AppComponent> {
   import2.Element _el_35;
   import2.Element _el_37;
   import3.ViewHeroBirthdayComponent0 _compView_37;
-  import4.HeroBirthdayComponent _HeroBirthdayComponent_37_4;
+  import4.HeroBirthdayComponent _HeroBirthdayComponent_37_5;
   import2.Element _el_38;
   import2.AnchorElement _el_39;
   import2.Element _el_40;
@@ -93,7 +91,7 @@ class ViewAppComponent0 extends AppView<import1.AppComponent> {
   import2.Element _el_51;
   import2.Element _el_53;
   import5.ViewHeroBirthday2Component0 _compView_53;
-  import6.HeroBirthday2Component _HeroBirthday2Component_53_4;
+  import6.HeroBirthday2Component _HeroBirthday2Component_53_5;
   import2.Element _el_54;
   import2.AnchorElement _el_55;
   import2.Element _el_56;
@@ -107,32 +105,32 @@ class ViewAppComponent0 extends AppView<import1.AppComponent> {
   import2.AnchorElement _el_68;
   import2.Element _el_69;
   import7.ViewPowerBoosterComponent0 _compView_69;
-  import8.PowerBoosterComponent _PowerBoosterComponent_69_4;
+  import8.PowerBoosterComponent _PowerBoosterComponent_69_5;
   import2.Element _el_70;
   import2.AnchorElement _el_71;
   import2.Element _el_72;
   import9.ViewPowerBoostCalculatorComponent0 _compView_72;
-  import10.PowerBoostCalculatorComponent _PowerBoostCalculatorComponent_72_4;
+  import10.PowerBoostCalculatorComponent _PowerBoostCalculatorComponent_72_5;
   import2.Element _el_73;
   import2.AnchorElement _el_74;
   import2.Element _el_75;
   import11.ViewFlyingHeroesComponent0 _compView_75;
-  import12.FlyingHeroesComponent _FlyingHeroesComponent_75_4;
+  import12.FlyingHeroesComponent _FlyingHeroesComponent_75_5;
   import2.Element _el_76;
   import2.AnchorElement _el_77;
   import2.Element _el_78;
   import11.ViewFlyingHeroesImpureComponent0 _compView_78;
-  import12.FlyingHeroesImpureComponent _FlyingHeroesImpureComponent_78_4;
+  import12.FlyingHeroesImpureComponent _FlyingHeroesImpureComponent_78_5;
   import2.Element _el_79;
   import2.AnchorElement _el_80;
   import2.Element _el_81;
   import13.ViewHeroAsyncMessageComponent0 _compView_81;
-  import14.HeroAsyncMessageComponent _HeroAsyncMessageComponent_81_4;
+  import14.HeroAsyncMessageComponent _HeroAsyncMessageComponent_81_5;
   import2.Element _el_82;
   import2.AnchorElement _el_83;
   import2.Element _el_84;
   import15.ViewHeroListComponent0 _compView_84;
-  import16.HeroListComponent _HeroListComponent_84_4;
+  import16.HeroListComponent _HeroListComponent_84_5;
   import2.DivElement _el_85;
   var _expr_0;
   var _expr_1;
@@ -223,8 +221,8 @@ class ViewAppComponent0 extends AppView<import1.AppComponent> {
     _compView_37 = new import3.ViewHeroBirthdayComponent0(this, 37);
     _el_37 = _compView_37.rootEl;
     parentRenderNode.append(_el_37);
-    _HeroBirthdayComponent_37_4 = new import4.HeroBirthdayComponent();
-    _compView_37.create(_HeroBirthdayComponent_37_4, []);
+    _HeroBirthdayComponent_37_5 = new import4.HeroBirthdayComponent();
+    _compView_37.create(_HeroBirthdayComponent_37_5, []);
     _el_38 = createAndAppend(doc, 'hr', parentRenderNode);
     _el_39 = createAndAppend(doc, 'a', parentRenderNode);
     createAttr(_el_39, 'id', 'birthday-date-pipe');
@@ -252,8 +250,8 @@ class ViewAppComponent0 extends AppView<import1.AppComponent> {
     _compView_53 = new import5.ViewHeroBirthday2Component0(this, 53);
     _el_53 = _compView_53.rootEl;
     parentRenderNode.append(_el_53);
-    _HeroBirthday2Component_53_4 = new import6.HeroBirthday2Component();
-    _compView_53.create(_HeroBirthday2Component_53_4, []);
+    _HeroBirthday2Component_53_5 = new import6.HeroBirthday2Component();
+    _compView_53.create(_HeroBirthday2Component_53_5, []);
     _el_54 = createAndAppend(doc, 'hr', parentRenderNode);
     _el_55 = createAndAppend(doc, 'a', parentRenderNode);
     createAttr(_el_55, 'id', 'birthday-pipe-chaining');
@@ -281,48 +279,48 @@ class ViewAppComponent0 extends AppView<import1.AppComponent> {
     _compView_69 = new import7.ViewPowerBoosterComponent0(this, 69);
     _el_69 = _compView_69.rootEl;
     parentRenderNode.append(_el_69);
-    _PowerBoosterComponent_69_4 = new import8.PowerBoosterComponent();
-    _compView_69.create(_PowerBoosterComponent_69_4, []);
+    _PowerBoosterComponent_69_5 = new import8.PowerBoosterComponent();
+    _compView_69.create(_PowerBoosterComponent_69_5, []);
     _el_70 = createAndAppend(doc, 'hr', parentRenderNode);
     _el_71 = createAndAppend(doc, 'a', parentRenderNode);
     createAttr(_el_71, 'id', 'power-boost-calc');
     _compView_72 = new import9.ViewPowerBoostCalculatorComponent0(this, 72);
     _el_72 = _compView_72.rootEl;
     parentRenderNode.append(_el_72);
-    _PowerBoostCalculatorComponent_72_4 = new import10.PowerBoostCalculatorComponent();
-    _compView_72.create(_PowerBoostCalculatorComponent_72_4, []);
+    _PowerBoostCalculatorComponent_72_5 = new import10.PowerBoostCalculatorComponent();
+    _compView_72.create(_PowerBoostCalculatorComponent_72_5, []);
     _el_73 = createAndAppend(doc, 'hr', parentRenderNode);
     _el_74 = createAndAppend(doc, 'a', parentRenderNode);
     createAttr(_el_74, 'id', 'flying-heroes');
     _compView_75 = new import11.ViewFlyingHeroesComponent0(this, 75);
     _el_75 = _compView_75.rootEl;
     parentRenderNode.append(_el_75);
-    _FlyingHeroesComponent_75_4 = new import12.FlyingHeroesComponent();
-    _compView_75.create(_FlyingHeroesComponent_75_4, []);
+    _FlyingHeroesComponent_75_5 = new import12.FlyingHeroesComponent();
+    _compView_75.create(_FlyingHeroesComponent_75_5, []);
     _el_76 = createAndAppend(doc, 'hr', parentRenderNode);
     _el_77 = createAndAppend(doc, 'a', parentRenderNode);
     createAttr(_el_77, 'id', 'flying-heroes-impure');
     _compView_78 = new import11.ViewFlyingHeroesImpureComponent0(this, 78);
     _el_78 = _compView_78.rootEl;
     parentRenderNode.append(_el_78);
-    _FlyingHeroesImpureComponent_78_4 = new import12.FlyingHeroesImpureComponent();
-    _compView_78.create(_FlyingHeroesImpureComponent_78_4, []);
+    _FlyingHeroesImpureComponent_78_5 = new import12.FlyingHeroesImpureComponent();
+    _compView_78.create(_FlyingHeroesImpureComponent_78_5, []);
     _el_79 = createAndAppend(doc, 'hr', parentRenderNode);
     _el_80 = createAndAppend(doc, 'a', parentRenderNode);
     createAttr(_el_80, 'id', 'hero-message');
     _compView_81 = new import13.ViewHeroAsyncMessageComponent0(this, 81);
     _el_81 = _compView_81.rootEl;
     parentRenderNode.append(_el_81);
-    _HeroAsyncMessageComponent_81_4 = new import14.HeroAsyncMessageComponent();
-    _compView_81.create(_HeroAsyncMessageComponent_81_4, []);
+    _HeroAsyncMessageComponent_81_5 = new import14.HeroAsyncMessageComponent();
+    _compView_81.create(_HeroAsyncMessageComponent_81_5, []);
     _el_82 = createAndAppend(doc, 'hr', parentRenderNode);
     _el_83 = createAndAppend(doc, 'a', parentRenderNode);
     createAttr(_el_83, 'id', 'hero-list');
     _compView_84 = new import15.ViewHeroListComponent0(this, 84);
     _el_84 = _compView_84.rootEl;
     parentRenderNode.append(_el_84);
-    _HeroListComponent_84_4 = new import16.HeroListComponent();
-    _compView_84.create(_HeroListComponent_84_4, []);
+    _HeroListComponent_84_5 = new import16.HeroListComponent();
+    _compView_84.create(_HeroListComponent_84_5, []);
     _el_85 = createDivAndAppend(doc, parentRenderNode);
     createAttr(_el_85, 'style', 'margin-top:12em;');
     _pipe_date_0 = new import17.DatePipe();
@@ -337,35 +335,6 @@ class ViewAppComponent0 extends AppView<import1.AppComponent> {
     _pipe_uppercase_1_2 = import23.pureProxy1(_pipe_uppercase_1.transform);
     init(const [], null);
     return null;
-  }
-
-  @override
-  dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
-    if ((identical(token, import4.HeroBirthdayComponent) && (37 == nodeIndex))) {
-      return _HeroBirthdayComponent_37_4;
-    }
-    if ((identical(token, import6.HeroBirthday2Component) && (53 == nodeIndex))) {
-      return _HeroBirthday2Component_53_4;
-    }
-    if ((identical(token, import8.PowerBoosterComponent) && (69 == nodeIndex))) {
-      return _PowerBoosterComponent_69_4;
-    }
-    if ((identical(token, import10.PowerBoostCalculatorComponent) && (72 == nodeIndex))) {
-      return _PowerBoostCalculatorComponent_72_4;
-    }
-    if ((identical(token, import12.FlyingHeroesComponent) && (75 == nodeIndex))) {
-      return _FlyingHeroesComponent_75_4;
-    }
-    if ((identical(token, import12.FlyingHeroesImpureComponent) && (78 == nodeIndex))) {
-      return _FlyingHeroesImpureComponent_78_4;
-    }
-    if ((identical(token, import14.HeroAsyncMessageComponent) && (81 == nodeIndex))) {
-      return _HeroAsyncMessageComponent_81_4;
-    }
-    if ((identical(token, import16.HeroListComponent) && (84 == nodeIndex))) {
-      return _HeroListComponent_84_4;
-    }
-    return notFoundResult;
   }
 
   @override
@@ -427,24 +396,16 @@ const List<dynamic> styles$AppComponentHost = const [];
 
 class _ViewAppComponentHost0 extends AppView<dynamic> {
   ViewAppComponent0 _compView_0;
-  import1.AppComponent _AppComponent_0_4;
+  import1.AppComponent _AppComponent_0_5;
   _ViewAppComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import21.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewAppComponent0(this, 0);
     rootEl = _compView_0.rootEl;
-    _AppComponent_0_4 = new import1.AppComponent();
-    _compView_0.create(_AppComponent_0_4, projectableNodes);
+    _AppComponent_0_5 = new import1.AppComponent();
+    _compView_0.create(_AppComponent_0_5, projectableNodes);
     init0(rootEl);
-    return new ComponentRef<import1.AppComponent>(0, this, rootEl, _AppComponent_0_4);
-  }
-
-  @override
-  dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
-    if ((identical(token, import1.AppComponent) && (0 == nodeIndex))) {
-      return _AppComponent_0_4;
-    }
-    return notFoundResult;
+    return new ComponentRef<import1.AppComponent>(0, this, rootEl, _AppComponent_0_5);
   }
 
   @override

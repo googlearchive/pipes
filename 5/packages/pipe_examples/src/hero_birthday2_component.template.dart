@@ -1,7 +1,5 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 // **************************************************************************
-// Generator: TemplateGenerator
+// Generator: Instance of 'Compiler'
 // **************************************************************************
 
 // ignore_for_file: cancel_subscriptions,constant_identifier_names,duplicate_import,non_constant_identifier_names,library_prefixes,UNUSED_IMPORT,UNUSED_SHOWN_NAME
@@ -74,24 +72,16 @@ const List<dynamic> styles$HeroBirthday2ComponentHost = const [];
 
 class _ViewHeroBirthday2ComponentHost0 extends AppView<dynamic> {
   ViewHeroBirthday2Component0 _compView_0;
-  import1.HeroBirthday2Component _HeroBirthday2Component_0_4;
+  import1.HeroBirthday2Component _HeroBirthday2Component_0_5;
   _ViewHeroBirthday2ComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import6.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewHeroBirthday2Component0(this, 0);
     rootEl = _compView_0.rootEl;
-    _HeroBirthday2Component_0_4 = new import1.HeroBirthday2Component();
-    _compView_0.create(_HeroBirthday2Component_0_4, projectableNodes);
+    _HeroBirthday2Component_0_5 = new import1.HeroBirthday2Component();
+    _compView_0.create(_HeroBirthday2Component_0_5, projectableNodes);
     init0(rootEl);
-    return new ComponentRef<import1.HeroBirthday2Component>(0, this, rootEl, _HeroBirthday2Component_0_4);
-  }
-
-  @override
-  dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
-    if ((identical(token, import1.HeroBirthday2Component) && (0 == nodeIndex))) {
-      return _HeroBirthday2Component_0_4;
-    }
-    return notFoundResult;
+    return new ComponentRef<import1.HeroBirthday2Component>(0, this, rootEl, _HeroBirthday2Component_0_5);
   }
 
   @override

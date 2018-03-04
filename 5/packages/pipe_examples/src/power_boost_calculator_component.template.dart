@@ -1,7 +1,5 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 // **************************************************************************
-// Generator: TemplateGenerator
+// Generator: Instance of 'Compiler'
 // **************************************************************************
 
 // ignore_for_file: cancel_subscriptions,constant_identifier_names,duplicate_import,non_constant_identifier_names,library_prefixes,UNUSED_IMPORT,UNUSED_SHOWN_NAME
@@ -19,17 +17,18 @@ import 'power_boost_calculator_component.dart' as import1;
 import 'dart:html' as import2;
 import 'package:angular_forms/src/directives/default_value_accessor.dart' as import3;
 import 'package:angular_forms/src/directives/number_value_accessor.dart' as import4;
-import 'package:angular_forms/src/directives/ng_model.dart' as import5;
-import 'exponential_strength_pipe.dart' as import6;
+import 'package:angular_forms/src/directives/control_value_accessor.dart' as import5;
+import 'package:angular_forms/src/directives/ng_model.dart' as import6;
+import 'exponential_strength_pipe.dart' as import7;
 import 'dart:core';
 import 'package:angular/src/core/render/api.dart';
-import 'package:angular/src/core/linker/view_type.dart' as import9;
+import 'package:angular/src/core/linker/view_type.dart' as import10;
 import 'package:angular/src/core/change_detection/change_detection.dart';
-import 'package:angular/src/core/linker/app_view_utils.dart' as import11;
+import 'package:angular/src/core/linker/app_view_utils.dart' as import12;
 import 'package:angular/angular.dart';
-import 'package:angular/src/core/di/opaque_token.dart' as import13;
-import 'package:angular_forms/src/directives/control_value_accessor.dart' as import14;
-import 'package:angular_forms/src/directives/ng_control.dart' as import15;
+import 'package:angular/src/core/di/opaque_token.dart' as import14;
+import 'package:angular_forms/src/directives/control_value_accessor.dart' as import15;
+import 'package:angular_forms/src/directives/ng_control.dart' as import16;
 
 const List<dynamic> styles$PowerBoostCalculatorComponent = const [];
 
@@ -37,25 +36,25 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
   import2.Element _el_0;
   import2.DivElement _el_2;
   import2.InputElement _el_4;
-  import3.DefaultValueAccessor _DefaultValueAccessor_4_4;
-  import4.NumberValueAccessor _NumberValueAccessor_4_5;
-  List<dynamic> _NgValueAccessor_4_6;
-  import5.NgModel _NgModel_4_7;
+  import3.DefaultValueAccessor _DefaultValueAccessor_4_5;
+  import4.NumberValueAccessor _NumberValueAccessor_4_6;
+  List<import5.ControlValueAccessor<dynamic>> _NgValueAccessor_4_7;
+  import6.NgModel _NgModel_4_8;
   import2.DivElement _el_5;
   import2.InputElement _el_7;
-  import3.DefaultValueAccessor _DefaultValueAccessor_7_4;
-  import4.NumberValueAccessor _NumberValueAccessor_7_5;
-  List<dynamic> _NgValueAccessor_7_6;
-  import5.NgModel _NgModel_7_7;
+  import3.DefaultValueAccessor _DefaultValueAccessor_7_5;
+  import4.NumberValueAccessor _NumberValueAccessor_7_6;
+  List<import5.ControlValueAccessor<dynamic>> _NgValueAccessor_7_7;
+  import6.NgModel _NgModel_7_8;
   import2.Element _el_8;
   import2.Text _text_10;
   var _expr_2;
-  import6.ExponentialStrengthPipe _pipe_exponentialStrength_0;
+  import7.ExponentialStrengthPipe _pipe_exponentialStrength_0;
   num Function(num, num) _pipe_exponentialStrength_0_0;
   static RenderComponentType _renderType;
-  ViewPowerBoostCalculatorComponent0(AppView<dynamic> parentView, num parentIndex) : super(import9.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewPowerBoostCalculatorComponent0(AppView<dynamic> parentView, num parentIndex) : super(import10.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('power-boost-calculator');
-    _renderType ??= import11.appViewUtils.createRenderType('', ViewEncapsulation.None, styles$PowerBoostCalculatorComponent);
+    _renderType ??= import12.appViewUtils.createRenderType('', ViewEncapsulation.None, styles$PowerBoostCalculatorComponent);
     setupComponentType(_renderType);
   }
   @override
@@ -70,19 +69,19 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
     _el_2.append(_text_3);
     _el_4 = createAndAppend(doc, 'input', _el_2);
     createAttr(_el_4, 'type', 'number');
-    _DefaultValueAccessor_4_4 = new import3.DefaultValueAccessor(_el_4);
-    _NumberValueAccessor_4_5 = new import4.NumberValueAccessor(_el_4);
-    _NgValueAccessor_4_6 = [_DefaultValueAccessor_4_4, _NumberValueAccessor_4_5];
-    _NgModel_4_7 = new import5.NgModel(null, _NgValueAccessor_4_6);
+    _DefaultValueAccessor_4_5 = new import3.DefaultValueAccessor(_el_4);
+    _NumberValueAccessor_4_6 = new import4.NumberValueAccessor(_el_4);
+    _NgValueAccessor_4_7 = [_DefaultValueAccessor_4_5, _NumberValueAccessor_4_6];
+    _NgModel_4_8 = new import6.NgModel(null, _NgValueAccessor_4_7);
     _el_5 = createDivAndAppend(doc, parentRenderNode);
     import2.Text _text_6 = new import2.Text('Boost factor:');
     _el_5.append(_text_6);
     _el_7 = createAndAppend(doc, 'input', _el_5);
     createAttr(_el_7, 'type', 'number');
-    _DefaultValueAccessor_7_4 = new import3.DefaultValueAccessor(_el_7);
-    _NumberValueAccessor_7_5 = new import4.NumberValueAccessor(_el_7);
-    _NgValueAccessor_7_6 = [_DefaultValueAccessor_7_4, _NumberValueAccessor_7_5];
-    _NgModel_7_7 = new import5.NgModel(null, _NgValueAccessor_7_6);
+    _DefaultValueAccessor_7_5 = new import3.DefaultValueAccessor(_el_7);
+    _NumberValueAccessor_7_6 = new import4.NumberValueAccessor(_el_7);
+    _NgValueAccessor_7_7 = [_DefaultValueAccessor_7_5, _NumberValueAccessor_7_6];
+    _NgModel_7_8 = new import6.NgModel(null, _NgValueAccessor_7_7);
     _el_8 = createAndAppend(doc, 'p', parentRenderNode);
     import2.Text _text_9 = new import2.Text('Super Hero Power: ');
     _el_8.append(_text_9);
@@ -91,13 +90,13 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
     _el_4.addEventListener('input', eventHandler1(_handle_input_4_1));
     _el_4.addEventListener('blur', eventHandler1(_handle_blur_4_2));
     _el_4.addEventListener('change', eventHandler1(_handle_change_4_3));
-    final subscription_0 = _NgModel_4_7.update.listen(eventHandler1(_handle_ngModelChange_4_0));
+    final subscription_0 = _NgModel_4_8.update.listen(eventHandler1(_handle_ngModelChange_4_0));
     _el_7.addEventListener('input', eventHandler1(_handle_input_7_1));
     _el_7.addEventListener('blur', eventHandler1(_handle_blur_7_2));
     _el_7.addEventListener('change', eventHandler1(_handle_change_7_3));
-    final subscription_1 = _NgModel_7_7.update.listen(eventHandler1(_handle_ngModelChange_7_0));
-    _pipe_exponentialStrength_0 = new import6.ExponentialStrengthPipe();
-    _pipe_exponentialStrength_0_0 = import11.pureProxy2(_pipe_exponentialStrength_0.transform);
+    final subscription_1 = _NgModel_7_8.update.listen(eventHandler1(_handle_ngModelChange_7_0));
+    _pipe_exponentialStrength_0 = new import7.ExponentialStrengthPipe();
+    _pipe_exponentialStrength_0_0 = import12.pureProxy2(_pipe_exponentialStrength_0.transform);
     init(const [], [subscription_0, subscription_1]);
     return null;
   }
@@ -105,28 +104,28 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
   @override
   dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
     if ((identical(token, import3.DefaultValueAccessor) && (4 == nodeIndex))) {
-      return _DefaultValueAccessor_4_4;
+      return _DefaultValueAccessor_4_5;
     }
     if ((identical(token, import4.NumberValueAccessor) && (4 == nodeIndex))) {
-      return _NumberValueAccessor_4_5;
+      return _NumberValueAccessor_4_6;
     }
-    if ((identical(token, const import13.OpaqueToken<import14.ControlValueAccessor<dynamic>>('NgValueAccessor')) && (4 == nodeIndex))) {
-      return _NgValueAccessor_4_6;
+    if ((identical(token, const import14.MultiToken<import15.ControlValueAccessor>('NgValueAccessor')) && (4 == nodeIndex))) {
+      return _NgValueAccessor_4_7;
     }
-    if (((identical(token, import5.NgModel) || identical(token, import15.NgControl)) && (4 == nodeIndex))) {
-      return _NgModel_4_7;
+    if (((identical(token, import6.NgModel) || identical(token, import16.NgControl)) && (4 == nodeIndex))) {
+      return _NgModel_4_8;
     }
     if ((identical(token, import3.DefaultValueAccessor) && (7 == nodeIndex))) {
-      return _DefaultValueAccessor_7_4;
+      return _DefaultValueAccessor_7_5;
     }
     if ((identical(token, import4.NumberValueAccessor) && (7 == nodeIndex))) {
-      return _NumberValueAccessor_7_5;
+      return _NumberValueAccessor_7_6;
     }
-    if ((identical(token, const import13.OpaqueToken<import14.ControlValueAccessor<dynamic>>('NgValueAccessor')) && (7 == nodeIndex))) {
-      return _NgValueAccessor_7_6;
+    if ((identical(token, const import14.MultiToken<import15.ControlValueAccessor>('NgValueAccessor')) && (7 == nodeIndex))) {
+      return _NgValueAccessor_7_7;
     }
-    if (((identical(token, import5.NgModel) || identical(token, import15.NgControl)) && (7 == nodeIndex))) {
-      return _NgModel_7_7;
+    if (((identical(token, import6.NgModel) || identical(token, import16.NgControl)) && (7 == nodeIndex))) {
+      return _NgModel_7_8;
     }
     return notFoundResult;
   }
@@ -137,18 +136,18 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
     bool changed = false;
     bool firstCheck = (this.cdState == 0);
     changed = false;
-    _NgModel_4_7.model = _ctx.power;
-    _NgModel_4_7.ngAfterChanges();
+    _NgModel_4_8.model = _ctx.power;
+    _NgModel_4_8.ngAfterChanges();
     if (firstCheck) {
-      _NgModel_4_7.ngOnInit();
+      _NgModel_4_8.ngOnInit();
     }
     changed = false;
-    _NgModel_7_7.model = _ctx.factor;
-    _NgModel_7_7.ngAfterChanges();
+    _NgModel_7_8.model = _ctx.factor;
+    _NgModel_7_8.ngAfterChanges();
     if (firstCheck) {
-      _NgModel_7_7.ngOnInit();
+      _NgModel_7_8.ngOnInit();
     }
-    final currVal_2 = import11.interpolate0(_pipe_exponentialStrength_0_0(_ctx.power, _ctx.factor));
+    final currVal_2 = import12.interpolate0(_pipe_exponentialStrength_0_0(_ctx.power, _ctx.factor));
     if (!identical(_expr_2, currVal_2)) {
       _text_10.text = currVal_2;
       _expr_2 = currVal_2;
@@ -160,17 +159,17 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
   }
 
   void _handle_input_4_1($event) {
-    _DefaultValueAccessor_4_4.onChange($event.target.value);
-    _NumberValueAccessor_4_5.onChange($event.target.value);
+    _DefaultValueAccessor_4_5.onChange($event.target.value);
+    _NumberValueAccessor_4_6.onChange($event.target.value);
   }
 
   void _handle_blur_4_2($event) {
-    _DefaultValueAccessor_4_4.touchHandler();
-    _NumberValueAccessor_4_5.touchHandler();
+    _DefaultValueAccessor_4_5.touchHandler();
+    _NumberValueAccessor_4_6.touchHandler();
   }
 
   void _handle_change_4_3($event) {
-    _NumberValueAccessor_4_5.onChange($event.target.value);
+    _NumberValueAccessor_4_6.onChange($event.target.value);
   }
 
   void _handle_ngModelChange_7_0($event) {
@@ -178,17 +177,17 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
   }
 
   void _handle_input_7_1($event) {
-    _DefaultValueAccessor_7_4.onChange($event.target.value);
-    _NumberValueAccessor_7_5.onChange($event.target.value);
+    _DefaultValueAccessor_7_5.onChange($event.target.value);
+    _NumberValueAccessor_7_6.onChange($event.target.value);
   }
 
   void _handle_blur_7_2($event) {
-    _DefaultValueAccessor_7_4.touchHandler();
-    _NumberValueAccessor_7_5.touchHandler();
+    _DefaultValueAccessor_7_5.touchHandler();
+    _NumberValueAccessor_7_6.touchHandler();
   }
 
   void _handle_change_7_3($event) {
-    _NumberValueAccessor_7_5.onChange($event.target.value);
+    _NumberValueAccessor_7_6.onChange($event.target.value);
   }
 }
 
@@ -200,24 +199,16 @@ const List<dynamic> styles$PowerBoostCalculatorComponentHost = const [];
 
 class _ViewPowerBoostCalculatorComponentHost0 extends AppView<dynamic> {
   ViewPowerBoostCalculatorComponent0 _compView_0;
-  import1.PowerBoostCalculatorComponent _PowerBoostCalculatorComponent_0_4;
-  _ViewPowerBoostCalculatorComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import9.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  import1.PowerBoostCalculatorComponent _PowerBoostCalculatorComponent_0_5;
+  _ViewPowerBoostCalculatorComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import10.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewPowerBoostCalculatorComponent0(this, 0);
     rootEl = _compView_0.rootEl;
-    _PowerBoostCalculatorComponent_0_4 = new import1.PowerBoostCalculatorComponent();
-    _compView_0.create(_PowerBoostCalculatorComponent_0_4, projectableNodes);
+    _PowerBoostCalculatorComponent_0_5 = new import1.PowerBoostCalculatorComponent();
+    _compView_0.create(_PowerBoostCalculatorComponent_0_5, projectableNodes);
     init0(rootEl);
-    return new ComponentRef<import1.PowerBoostCalculatorComponent>(0, this, rootEl, _PowerBoostCalculatorComponent_0_4);
-  }
-
-  @override
-  dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
-    if ((identical(token, import1.PowerBoostCalculatorComponent) && (0 == nodeIndex))) {
-      return _PowerBoostCalculatorComponent_0_4;
-    }
-    return notFoundResult;
+    return new ComponentRef<import1.PowerBoostCalculatorComponent>(0, this, rootEl, _PowerBoostCalculatorComponent_0_5);
   }
 
   @override
