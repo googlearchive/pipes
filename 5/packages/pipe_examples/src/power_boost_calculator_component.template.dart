@@ -52,14 +52,15 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
   import7.ExponentialStrengthPipe _pipe_exponentialStrength_0;
   num Function(num, num) _pipe_exponentialStrength_0_0;
   static RenderComponentType _renderType;
-  ViewPowerBoostCalculatorComponent0(AppView<dynamic> parentView, num parentIndex) : super(import10.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewPowerBoostCalculatorComponent0(AppView<dynamic> parentView, int parentIndex) : super(import10.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('power-boost-calculator');
     _renderType ??= import12.appViewUtils.createRenderType('', ViewEncapsulation.None, styles$PowerBoostCalculatorComponent);
     setupComponentType(_renderType);
   }
   @override
   ComponentRef<import1.PowerBoostCalculatorComponent> build() {
-    final import2.HtmlElement parentRenderNode = initViewRoot(rootEl);
+    final _rootEl = rootEl;
+    final import2.HtmlElement parentRenderNode = initViewRoot(_rootEl);
     var doc = import2.document;
     _el_0 = createAndAppend(doc, 'h2', parentRenderNode);
     import2.Text _text_1 = new import2.Text('Power Boost Calculator');
@@ -191,7 +192,7 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
   }
 }
 
-AppView<import1.PowerBoostCalculatorComponent> viewFactory_PowerBoostCalculatorComponent0(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.PowerBoostCalculatorComponent> viewFactory_PowerBoostCalculatorComponent0(AppView<dynamic> parentView, int parentIndex) {
   return new ViewPowerBoostCalculatorComponent0(parentView, parentIndex);
 }
 
@@ -200,7 +201,7 @@ const List<dynamic> styles$PowerBoostCalculatorComponentHost = const [];
 class _ViewPowerBoostCalculatorComponentHost0 extends AppView<dynamic> {
   ViewPowerBoostCalculatorComponent0 _compView_0;
   import1.PowerBoostCalculatorComponent _PowerBoostCalculatorComponent_0_5;
-  _ViewPowerBoostCalculatorComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import10.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewPowerBoostCalculatorComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import10.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewPowerBoostCalculatorComponent0(this, 0);
@@ -222,7 +223,7 @@ class _ViewPowerBoostCalculatorComponentHost0 extends AppView<dynamic> {
   }
 }
 
-AppView viewFactory_PowerBoostCalculatorComponentHost0(AppView<dynamic> parentView, num parentIndex) {
+AppView viewFactory_PowerBoostCalculatorComponentHost0(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewPowerBoostCalculatorComponentHost0(parentView, parentIndex);
 }
 

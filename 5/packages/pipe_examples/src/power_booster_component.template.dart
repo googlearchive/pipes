@@ -31,14 +31,15 @@ class ViewPowerBoosterComponent0 extends AppView<import1.PowerBoosterComponent> 
   import3.ExponentialStrengthPipe _pipe_exponentialStrength_0;
   num Function(num, num) _pipe_exponentialStrength_0_0;
   static RenderComponentType _renderType;
-  ViewPowerBoosterComponent0(AppView<dynamic> parentView, num parentIndex) : super(import6.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewPowerBoosterComponent0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('power-booster');
     _renderType ??= import8.appViewUtils.createRenderType('', ViewEncapsulation.None, styles$PowerBoosterComponent);
     setupComponentType(_renderType);
   }
   @override
   ComponentRef<import1.PowerBoosterComponent> build() {
-    final import2.HtmlElement parentRenderNode = initViewRoot(rootEl);
+    final _rootEl = rootEl;
+    final import2.HtmlElement parentRenderNode = initViewRoot(_rootEl);
     var doc = import2.document;
     _el_0 = createAndAppend(doc, 'h2', parentRenderNode);
     import2.Text _text_1 = new import2.Text('Power Booster');
@@ -64,7 +65,7 @@ class ViewPowerBoosterComponent0 extends AppView<import1.PowerBoosterComponent> 
   }
 }
 
-AppView<import1.PowerBoosterComponent> viewFactory_PowerBoosterComponent0(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.PowerBoosterComponent> viewFactory_PowerBoosterComponent0(AppView<dynamic> parentView, int parentIndex) {
   return new ViewPowerBoosterComponent0(parentView, parentIndex);
 }
 
@@ -73,7 +74,7 @@ const List<dynamic> styles$PowerBoosterComponentHost = const [];
 class _ViewPowerBoosterComponentHost0 extends AppView<dynamic> {
   ViewPowerBoosterComponent0 _compView_0;
   import1.PowerBoosterComponent _PowerBoosterComponent_0_5;
-  _ViewPowerBoosterComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import6.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewPowerBoosterComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewPowerBoosterComponent0(this, 0);
@@ -95,7 +96,7 @@ class _ViewPowerBoosterComponentHost0 extends AppView<dynamic> {
   }
 }
 
-AppView viewFactory_PowerBoosterComponentHost0(AppView<dynamic> parentView, num parentIndex) {
+AppView viewFactory_PowerBoosterComponentHost0(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewPowerBoosterComponentHost0(parentView, parentIndex);
 }
 

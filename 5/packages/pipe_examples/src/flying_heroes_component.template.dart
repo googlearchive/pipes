@@ -66,14 +66,15 @@ class ViewFlyingHeroesComponent0 extends AppView<import1.FlyingHeroesComponent> 
   import8.FlyingHeroesPipe _pipe_flyingHeroes_0;
   List<import10.Hero> Function(List<import10.Hero>) _pipe_flyingHeroes_0_0;
   static RenderComponentType _renderType;
-  ViewFlyingHeroesComponent0(AppView<dynamic> parentView, num parentIndex) : super(import12.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewFlyingHeroesComponent0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('flying-heroes');
     _renderType ??= import14.appViewUtils.createRenderType('', ViewEncapsulation.Emulated, styles$FlyingHeroesComponent);
     setupComponentType(_renderType);
   }
   @override
   ComponentRef<import1.FlyingHeroesComponent> build() {
-    final import2.HtmlElement parentRenderNode = initViewRoot(rootEl);
+    final _rootEl = rootEl;
+    final import2.HtmlElement parentRenderNode = initViewRoot(_rootEl);
     var doc = import2.document;
     _el_0 = createAndAppend(doc, 'h2', parentRenderNode);
     addShimE(_el_0);
@@ -239,7 +240,7 @@ class ViewFlyingHeroesComponent0 extends AppView<import1.FlyingHeroesComponent> 
   }
 }
 
-AppView<import1.FlyingHeroesComponent> viewFactory_FlyingHeroesComponent0(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.FlyingHeroesComponent> viewFactory_FlyingHeroesComponent0(AppView<dynamic> parentView, int parentIndex) {
   return new ViewFlyingHeroesComponent0(parentView, parentIndex);
 }
 
@@ -247,7 +248,7 @@ class _ViewFlyingHeroesComponent1 extends AppView<import1.FlyingHeroesComponent>
   import2.DivElement _el_0;
   import2.Text _text_1;
   var _expr_0;
-  _ViewFlyingHeroesComponent1(AppView<dynamic> parentView, num parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  _ViewFlyingHeroesComponent1(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     componentType = ViewFlyingHeroesComponent0._renderType;
   }
   @override
@@ -272,7 +273,7 @@ class _ViewFlyingHeroesComponent1 extends AppView<import1.FlyingHeroesComponent>
   }
 }
 
-AppView<import1.FlyingHeroesComponent> viewFactory_FlyingHeroesComponent1(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.FlyingHeroesComponent> viewFactory_FlyingHeroesComponent1(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewFlyingHeroesComponent1(parentView, parentIndex);
 }
 
@@ -280,7 +281,7 @@ class _ViewFlyingHeroesComponent2 extends AppView<import1.FlyingHeroesComponent>
   import2.DivElement _el_0;
   import2.Text _text_1;
   var _expr_0;
-  _ViewFlyingHeroesComponent2(AppView<dynamic> parentView, num parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  _ViewFlyingHeroesComponent2(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     componentType = ViewFlyingHeroesComponent0._renderType;
   }
   @override
@@ -305,7 +306,7 @@ class _ViewFlyingHeroesComponent2 extends AppView<import1.FlyingHeroesComponent>
   }
 }
 
-AppView<import1.FlyingHeroesComponent> viewFactory_FlyingHeroesComponent2(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.FlyingHeroesComponent> viewFactory_FlyingHeroesComponent2(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewFlyingHeroesComponent2(parentView, parentIndex);
 }
 
@@ -314,7 +315,7 @@ const List<dynamic> styles$FlyingHeroesComponentHost = const [];
 class _ViewFlyingHeroesComponentHost0 extends AppView<dynamic> {
   ViewFlyingHeroesComponent0 _compView_0;
   import1.FlyingHeroesComponent _FlyingHeroesComponent_0_5;
-  _ViewFlyingHeroesComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import12.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewFlyingHeroesComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewFlyingHeroesComponent0(this, 0);
@@ -336,7 +337,7 @@ class _ViewFlyingHeroesComponentHost0 extends AppView<dynamic> {
   }
 }
 
-AppView viewFactory_FlyingHeroesComponentHost0(AppView<dynamic> parentView, num parentIndex) {
+AppView viewFactory_FlyingHeroesComponentHost0(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewFlyingHeroesComponentHost0(parentView, parentIndex);
 }
 
@@ -371,14 +372,15 @@ class ViewFlyingHeroesImpureComponent0 extends AppView<import1.FlyingHeroesImpur
   var _expr_4;
   import8.FlyingHeroesImpurePipe _pipe_flyingHeroes_0;
   static RenderComponentType _renderType;
-  ViewFlyingHeroesImpureComponent0(AppView<dynamic> parentView, num parentIndex) : super(import12.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewFlyingHeroesImpureComponent0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('flying-heroes-impure');
     _renderType ??= import14.appViewUtils.createRenderType('', ViewEncapsulation.Emulated, styles$FlyingHeroesImpureComponent);
     setupComponentType(_renderType);
   }
   @override
   ComponentRef<import1.FlyingHeroesImpureComponent> build() {
-    final import2.HtmlElement parentRenderNode = initViewRoot(rootEl);
+    final _rootEl = rootEl;
+    final import2.HtmlElement parentRenderNode = initViewRoot(_rootEl);
     var doc = import2.document;
     _el_0 = createAndAppend(doc, 'h2', parentRenderNode);
     addShimE(_el_0);
@@ -543,7 +545,7 @@ class ViewFlyingHeroesImpureComponent0 extends AppView<import1.FlyingHeroesImpur
   }
 }
 
-AppView<import1.FlyingHeroesImpureComponent> viewFactory_FlyingHeroesImpureComponent0(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.FlyingHeroesImpureComponent> viewFactory_FlyingHeroesImpureComponent0(AppView<dynamic> parentView, int parentIndex) {
   return new ViewFlyingHeroesImpureComponent0(parentView, parentIndex);
 }
 
@@ -551,7 +553,7 @@ class _ViewFlyingHeroesImpureComponent1 extends AppView<import1.FlyingHeroesImpu
   import2.DivElement _el_0;
   import2.Text _text_1;
   var _expr_0;
-  _ViewFlyingHeroesImpureComponent1(AppView<dynamic> parentView, num parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  _ViewFlyingHeroesImpureComponent1(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     componentType = ViewFlyingHeroesImpureComponent0._renderType;
   }
   @override
@@ -576,7 +578,7 @@ class _ViewFlyingHeroesImpureComponent1 extends AppView<import1.FlyingHeroesImpu
   }
 }
 
-AppView<import1.FlyingHeroesImpureComponent> viewFactory_FlyingHeroesImpureComponent1(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.FlyingHeroesImpureComponent> viewFactory_FlyingHeroesImpureComponent1(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewFlyingHeroesImpureComponent1(parentView, parentIndex);
 }
 
@@ -584,7 +586,7 @@ class _ViewFlyingHeroesImpureComponent2 extends AppView<import1.FlyingHeroesImpu
   import2.DivElement _el_0;
   import2.Text _text_1;
   var _expr_0;
-  _ViewFlyingHeroesImpureComponent2(AppView<dynamic> parentView, num parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  _ViewFlyingHeroesImpureComponent2(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     componentType = ViewFlyingHeroesImpureComponent0._renderType;
   }
   @override
@@ -609,7 +611,7 @@ class _ViewFlyingHeroesImpureComponent2 extends AppView<import1.FlyingHeroesImpu
   }
 }
 
-AppView<import1.FlyingHeroesImpureComponent> viewFactory_FlyingHeroesImpureComponent2(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.FlyingHeroesImpureComponent> viewFactory_FlyingHeroesImpureComponent2(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewFlyingHeroesImpureComponent2(parentView, parentIndex);
 }
 
@@ -618,7 +620,7 @@ const List<dynamic> styles$FlyingHeroesImpureComponentHost = const [];
 class _ViewFlyingHeroesImpureComponentHost0 extends AppView<dynamic> {
   ViewFlyingHeroesImpureComponent0 _compView_0;
   import1.FlyingHeroesImpureComponent _FlyingHeroesImpureComponent_0_5;
-  _ViewFlyingHeroesImpureComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import12.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewFlyingHeroesImpureComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewFlyingHeroesImpureComponent0(this, 0);
@@ -640,7 +642,7 @@ class _ViewFlyingHeroesImpureComponentHost0 extends AppView<dynamic> {
   }
 }
 
-AppView viewFactory_FlyingHeroesImpureComponentHost0(AppView<dynamic> parentView, num parentIndex) {
+AppView viewFactory_FlyingHeroesImpureComponentHost0(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewFlyingHeroesImpureComponentHost0(parentView, parentIndex);
 }
 

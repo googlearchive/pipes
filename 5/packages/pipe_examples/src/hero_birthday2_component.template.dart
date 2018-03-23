@@ -29,14 +29,15 @@ class ViewHeroBirthday2Component0 extends AppView<import1.HeroBirthday2Component
   import3.DatePipe _pipe_date_0;
   String Function(dynamic, String) _pipe_date_0_0;
   static RenderComponentType _renderType;
-  ViewHeroBirthday2Component0(AppView<dynamic> parentView, num parentIndex) : super(import6.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewHeroBirthday2Component0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('hero-birthday2');
     _renderType ??= import8.appViewUtils.createRenderType('', ViewEncapsulation.None, styles$HeroBirthday2Component);
     setupComponentType(_renderType);
   }
   @override
   ComponentRef<import1.HeroBirthday2Component> build() {
-    final import2.HtmlElement parentRenderNode = initViewRoot(rootEl);
+    final _rootEl = rootEl;
+    final import2.HtmlElement parentRenderNode = initViewRoot(_rootEl);
     var doc = import2.document;
     _el_0 = createAndAppend(doc, 'p', parentRenderNode);
     import2.Text _text_1 = new import2.Text('The hero\'s birthday is ');
@@ -64,7 +65,7 @@ class ViewHeroBirthday2Component0 extends AppView<import1.HeroBirthday2Component
   }
 }
 
-AppView<import1.HeroBirthday2Component> viewFactory_HeroBirthday2Component0(AppView<dynamic> parentView, num parentIndex) {
+AppView<import1.HeroBirthday2Component> viewFactory_HeroBirthday2Component0(AppView<dynamic> parentView, int parentIndex) {
   return new ViewHeroBirthday2Component0(parentView, parentIndex);
 }
 
@@ -73,7 +74,7 @@ const List<dynamic> styles$HeroBirthday2ComponentHost = const [];
 class _ViewHeroBirthday2ComponentHost0 extends AppView<dynamic> {
   ViewHeroBirthday2Component0 _compView_0;
   import1.HeroBirthday2Component _HeroBirthday2Component_0_5;
-  _ViewHeroBirthday2ComponentHost0(AppView<dynamic> parentView, num parentIndex) : super(import6.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewHeroBirthday2ComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewHeroBirthday2Component0(this, 0);
@@ -95,7 +96,7 @@ class _ViewHeroBirthday2ComponentHost0 extends AppView<dynamic> {
   }
 }
 
-AppView viewFactory_HeroBirthday2ComponentHost0(AppView<dynamic> parentView, num parentIndex) {
+AppView viewFactory_HeroBirthday2ComponentHost0(AppView<dynamic> parentView, int parentIndex) {
   return new _ViewHeroBirthday2ComponentHost0(parentView, parentIndex);
 }
 
