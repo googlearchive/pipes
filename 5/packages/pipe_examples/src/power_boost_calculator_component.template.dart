@@ -52,7 +52,7 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
   import7.ExponentialStrengthPipe _pipe_exponentialStrength_0;
   num Function(num, num) _pipe_exponentialStrength_0_0;
   static RenderComponentType _renderType;
-  ViewPowerBoostCalculatorComponent0(AppView<dynamic> parentView, int parentIndex) : super(import10.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewPowerBoostCalculatorComponent0(AppView<dynamic> parentView, int parentIndex) : super(import10.ViewType.component, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('power-boost-calculator');
     _renderType ??= import12.appViewUtils.createRenderType('', ViewEncapsulation.None, styles$PowerBoostCalculatorComponent);
     setupComponentType(_renderType);
@@ -88,12 +88,12 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
     _el_8.append(_text_9);
     _text_10 = new import2.Text('');
     _el_8.append(_text_10);
-    _el_4.addEventListener('input', eventHandler1(_handle_input_4_1));
-    _el_4.addEventListener('blur', eventHandler1(_handle_blur_4_2));
+    _el_4.addEventListener('blur', eventHandler1(_handle_blur_4_1));
+    _el_4.addEventListener('input', eventHandler1(_handle_input_4_2));
     _el_4.addEventListener('change', eventHandler1(_handle_change_4_3));
     final subscription_0 = _NgModel_4_8.update.listen(eventHandler1(_handle_ngModelChange_4_0));
-    _el_7.addEventListener('input', eventHandler1(_handle_input_7_1));
-    _el_7.addEventListener('blur', eventHandler1(_handle_blur_7_2));
+    _el_7.addEventListener('blur', eventHandler1(_handle_blur_7_1));
+    _el_7.addEventListener('input', eventHandler1(_handle_input_7_2));
     _el_7.addEventListener('change', eventHandler1(_handle_change_7_3));
     final subscription_1 = _NgModel_7_8.update.listen(eventHandler1(_handle_ngModelChange_7_0));
     _pipe_exponentialStrength_0 = new import7.ExponentialStrengthPipe();
@@ -159,36 +159,36 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
     ctx.power = $event;
   }
 
-  void _handle_input_4_1($event) {
-    _DefaultValueAccessor_4_5.onChange($event.target.value);
-    _NumberValueAccessor_4_6.onChange($event.target.value);
-  }
-
-  void _handle_blur_4_2($event) {
+  void _handle_blur_4_1($event) {
     _DefaultValueAccessor_4_5.touchHandler();
     _NumberValueAccessor_4_6.touchHandler();
   }
 
+  void _handle_input_4_2($event) {
+    _DefaultValueAccessor_4_5.handleChange($event.target.value);
+    _NumberValueAccessor_4_6.handleChange($event.target.value);
+  }
+
   void _handle_change_4_3($event) {
-    _NumberValueAccessor_4_6.onChange($event.target.value);
+    _NumberValueAccessor_4_6.handleChange($event.target.value);
   }
 
   void _handle_ngModelChange_7_0($event) {
     ctx.factor = $event;
   }
 
-  void _handle_input_7_1($event) {
-    _DefaultValueAccessor_7_5.onChange($event.target.value);
-    _NumberValueAccessor_7_6.onChange($event.target.value);
-  }
-
-  void _handle_blur_7_2($event) {
+  void _handle_blur_7_1($event) {
     _DefaultValueAccessor_7_5.touchHandler();
     _NumberValueAccessor_7_6.touchHandler();
   }
 
+  void _handle_input_7_2($event) {
+    _DefaultValueAccessor_7_5.handleChange($event.target.value);
+    _NumberValueAccessor_7_6.handleChange($event.target.value);
+  }
+
   void _handle_change_7_3($event) {
-    _NumberValueAccessor_7_6.onChange($event.target.value);
+    _NumberValueAccessor_7_6.handleChange($event.target.value);
   }
 }
 
@@ -201,7 +201,7 @@ const List<dynamic> styles$PowerBoostCalculatorComponentHost = const [];
 class _ViewPowerBoostCalculatorComponentHost0 extends AppView<dynamic> {
   ViewPowerBoostCalculatorComponent0 _compView_0;
   import1.PowerBoostCalculatorComponent _PowerBoostCalculatorComponent_0_5;
-  _ViewPowerBoostCalculatorComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import10.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewPowerBoostCalculatorComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import10.ViewType.host, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewPowerBoostCalculatorComponent0(this, 0);

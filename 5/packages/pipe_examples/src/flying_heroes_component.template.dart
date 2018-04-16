@@ -66,7 +66,7 @@ class ViewFlyingHeroesComponent0 extends AppView<import1.FlyingHeroesComponent> 
   import8.FlyingHeroesPipe _pipe_flyingHeroes_0;
   List<import10.Hero> Function(List<import10.Hero>) _pipe_flyingHeroes_0_0;
   static RenderComponentType _renderType;
-  ViewFlyingHeroesComponent0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewFlyingHeroesComponent0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.component, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('flying-heroes');
     _renderType ??= import14.appViewUtils.createRenderType('', ViewEncapsulation.Emulated, styles$FlyingHeroesComponent);
     setupComponentType(_renderType);
@@ -119,7 +119,7 @@ class ViewFlyingHeroesComponent0 extends AppView<import1.FlyingHeroesComponent> 
     _el_14 = createDivAndAppend(doc, parentRenderNode);
     createAttr(_el_14, 'id', 'flyers');
     addShimC(_el_14);
-    var _anchor_15 = ngAnchor.clone(false);
+    final _anchor_15 = createViewContainerAnchor();
     _el_14.append(_anchor_15);
     _appEl_15 = new ViewContainer(15, 14, this, _anchor_15);
     TemplateRef _TemplateRef_15_8 = new TemplateRef(_appEl_15, viewFactory_FlyingHeroesComponent1);
@@ -131,17 +131,17 @@ class ViewFlyingHeroesComponent0 extends AppView<import1.FlyingHeroesComponent> 
     _el_18 = createDivAndAppend(doc, parentRenderNode);
     createAttr(_el_18, 'id', 'all');
     addShimC(_el_18);
-    var _anchor_19 = ngAnchor.clone(false);
+    final _anchor_19 = createViewContainerAnchor();
     _el_18.append(_anchor_19);
     _appEl_19 = new ViewContainer(19, 18, this, _anchor_19);
     TemplateRef _TemplateRef_19_8 = new TemplateRef(_appEl_19, viewFactory_FlyingHeroesComponent2);
     _NgFor_19_9 = new import7.NgFor(_appEl_19, _TemplateRef_19_8);
     import14.appViewUtils.eventManager.addEventListener(_el_4, 'keyup.enter', eventHandler1(_handle_keyup_enter_4_0));
-    _el_5.addEventListener('change', eventHandler1(_handle_change_5_1));
     _el_5.addEventListener('blur', eventHandler0(_CheckboxControlValueAccessor_5_5.touchHandler));
+    _el_5.addEventListener('change', eventHandler1(_handle_change_5_2));
     final subscription_0 = _NgModel_5_7.update.listen(eventHandler1(_handle_ngModelChange_5_0));
-    _el_8.addEventListener('change', eventHandler1(_handle_change_8_1));
     _el_8.addEventListener('blur', eventHandler0(_CheckboxControlValueAccessor_8_5.touchHandler));
+    _el_8.addEventListener('change', eventHandler1(_handle_change_8_2));
     final subscription_1 = _NgModel_8_7.update.listen(eventHandler1(_handle_ngModelChange_8_0));
     _el_10.addEventListener('click', eventHandler0(ctx.reset));
     _pipe_flyingHeroes_0 = new import8.FlyingHeroesPipe();
@@ -227,16 +227,16 @@ class ViewFlyingHeroesComponent0 extends AppView<import1.FlyingHeroesComponent> 
     ctx.canFly = $event;
   }
 
-  void _handle_change_5_1($event) {
-    _CheckboxControlValueAccessor_5_5.onChange($event.target.checked);
+  void _handle_change_5_2($event) {
+    _CheckboxControlValueAccessor_5_5.handleChange($event.target.checked);
   }
 
   void _handle_ngModelChange_8_0($event) {
     ctx.mutate = $event;
   }
 
-  void _handle_change_8_1($event) {
-    _CheckboxControlValueAccessor_8_5.onChange($event.target.checked);
+  void _handle_change_8_2($event) {
+    _CheckboxControlValueAccessor_8_5.handleChange($event.target.checked);
   }
 }
 
@@ -248,7 +248,7 @@ class _ViewFlyingHeroesComponent1 extends AppView<import1.FlyingHeroesComponent>
   import2.DivElement _el_0;
   import2.Text _text_1;
   var _expr_0;
-  _ViewFlyingHeroesComponent1(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  _ViewFlyingHeroesComponent1(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.embedded, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     componentType = ViewFlyingHeroesComponent0._renderType;
   }
   @override
@@ -281,7 +281,7 @@ class _ViewFlyingHeroesComponent2 extends AppView<import1.FlyingHeroesComponent>
   import2.DivElement _el_0;
   import2.Text _text_1;
   var _expr_0;
-  _ViewFlyingHeroesComponent2(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  _ViewFlyingHeroesComponent2(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.embedded, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     componentType = ViewFlyingHeroesComponent0._renderType;
   }
   @override
@@ -315,7 +315,7 @@ const List<dynamic> styles$FlyingHeroesComponentHost = const [];
 class _ViewFlyingHeroesComponentHost0 extends AppView<dynamic> {
   ViewFlyingHeroesComponent0 _compView_0;
   import1.FlyingHeroesComponent _FlyingHeroesComponent_0_5;
-  _ViewFlyingHeroesComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewFlyingHeroesComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.host, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewFlyingHeroesComponent0(this, 0);
@@ -372,7 +372,7 @@ class ViewFlyingHeroesImpureComponent0 extends AppView<import1.FlyingHeroesImpur
   var _expr_4;
   import8.FlyingHeroesImpurePipe _pipe_flyingHeroes_0;
   static RenderComponentType _renderType;
-  ViewFlyingHeroesImpureComponent0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewFlyingHeroesImpureComponent0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.component, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('flying-heroes-impure');
     _renderType ??= import14.appViewUtils.createRenderType('', ViewEncapsulation.Emulated, styles$FlyingHeroesImpureComponent);
     setupComponentType(_renderType);
@@ -425,7 +425,7 @@ class ViewFlyingHeroesImpureComponent0 extends AppView<import1.FlyingHeroesImpur
     _el_14 = createDivAndAppend(doc, parentRenderNode);
     createAttr(_el_14, 'id', 'flyers');
     addShimC(_el_14);
-    var _anchor_15 = ngAnchor.clone(false);
+    final _anchor_15 = createViewContainerAnchor();
     _el_14.append(_anchor_15);
     _appEl_15 = new ViewContainer(15, 14, this, _anchor_15);
     TemplateRef _TemplateRef_15_8 = new TemplateRef(_appEl_15, viewFactory_FlyingHeroesImpureComponent1);
@@ -437,17 +437,17 @@ class ViewFlyingHeroesImpureComponent0 extends AppView<import1.FlyingHeroesImpur
     _el_18 = createDivAndAppend(doc, parentRenderNode);
     createAttr(_el_18, 'id', 'all');
     addShimC(_el_18);
-    var _anchor_19 = ngAnchor.clone(false);
+    final _anchor_19 = createViewContainerAnchor();
     _el_18.append(_anchor_19);
     _appEl_19 = new ViewContainer(19, 18, this, _anchor_19);
     TemplateRef _TemplateRef_19_8 = new TemplateRef(_appEl_19, viewFactory_FlyingHeroesImpureComponent2);
     _NgFor_19_9 = new import7.NgFor(_appEl_19, _TemplateRef_19_8);
     import14.appViewUtils.eventManager.addEventListener(_el_4, 'keyup.enter', eventHandler1(_handle_keyup_enter_4_0));
-    _el_5.addEventListener('change', eventHandler1(_handle_change_5_1));
     _el_5.addEventListener('blur', eventHandler0(_CheckboxControlValueAccessor_5_5.touchHandler));
+    _el_5.addEventListener('change', eventHandler1(_handle_change_5_2));
     final subscription_0 = _NgModel_5_7.update.listen(eventHandler1(_handle_ngModelChange_5_0));
-    _el_8.addEventListener('change', eventHandler1(_handle_change_8_1));
     _el_8.addEventListener('blur', eventHandler0(_CheckboxControlValueAccessor_8_5.touchHandler));
+    _el_8.addEventListener('change', eventHandler1(_handle_change_8_2));
     final subscription_1 = _NgModel_8_7.update.listen(eventHandler1(_handle_ngModelChange_8_0));
     _el_10.addEventListener('click', eventHandler0(ctx.reset));
     _pipe_flyingHeroes_0 = new import8.FlyingHeroesImpurePipe();
@@ -532,16 +532,16 @@ class ViewFlyingHeroesImpureComponent0 extends AppView<import1.FlyingHeroesImpur
     ctx.canFly = $event;
   }
 
-  void _handle_change_5_1($event) {
-    _CheckboxControlValueAccessor_5_5.onChange($event.target.checked);
+  void _handle_change_5_2($event) {
+    _CheckboxControlValueAccessor_5_5.handleChange($event.target.checked);
   }
 
   void _handle_ngModelChange_8_0($event) {
     ctx.mutate = $event;
   }
 
-  void _handle_change_8_1($event) {
-    _CheckboxControlValueAccessor_8_5.onChange($event.target.checked);
+  void _handle_change_8_2($event) {
+    _CheckboxControlValueAccessor_8_5.handleChange($event.target.checked);
   }
 }
 
@@ -553,7 +553,7 @@ class _ViewFlyingHeroesImpureComponent1 extends AppView<import1.FlyingHeroesImpu
   import2.DivElement _el_0;
   import2.Text _text_1;
   var _expr_0;
-  _ViewFlyingHeroesImpureComponent1(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  _ViewFlyingHeroesImpureComponent1(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.embedded, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     componentType = ViewFlyingHeroesImpureComponent0._renderType;
   }
   @override
@@ -586,7 +586,7 @@ class _ViewFlyingHeroesImpureComponent2 extends AppView<import1.FlyingHeroesImpu
   import2.DivElement _el_0;
   import2.Text _text_1;
   var _expr_0;
-  _ViewFlyingHeroesImpureComponent2(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.EMBEDDED, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  _ViewFlyingHeroesImpureComponent2(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.embedded, {'\$implicit': null}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     componentType = ViewFlyingHeroesImpureComponent0._renderType;
   }
   @override
@@ -620,7 +620,7 @@ const List<dynamic> styles$FlyingHeroesImpureComponentHost = const [];
 class _ViewFlyingHeroesImpureComponentHost0 extends AppView<dynamic> {
   ViewFlyingHeroesImpureComponent0 _compView_0;
   import1.FlyingHeroesImpureComponent _FlyingHeroesImpureComponent_0_5;
-  _ViewFlyingHeroesImpureComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewFlyingHeroesImpureComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import12.ViewType.host, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewFlyingHeroesImpureComponent0(this, 0);

@@ -31,7 +31,7 @@ class ViewPowerBoosterComponent0 extends AppView<import1.PowerBoosterComponent> 
   import3.ExponentialStrengthPipe _pipe_exponentialStrength_0;
   num Function(num, num) _pipe_exponentialStrength_0_0;
   static RenderComponentType _renderType;
-  ViewPowerBoosterComponent0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewPowerBoosterComponent0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.component, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('power-booster');
     _renderType ??= import8.appViewUtils.createRenderType('', ViewEncapsulation.None, styles$PowerBoosterComponent);
     setupComponentType(_renderType);
@@ -74,7 +74,7 @@ const List<dynamic> styles$PowerBoosterComponentHost = const [];
 class _ViewPowerBoosterComponentHost0 extends AppView<dynamic> {
   ViewPowerBoosterComponent0 _compView_0;
   import1.PowerBoosterComponent _PowerBoosterComponent_0_5;
-  _ViewPowerBoosterComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewPowerBoosterComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.host, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewPowerBoosterComponent0(this, 0);

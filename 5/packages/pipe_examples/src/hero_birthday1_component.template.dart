@@ -28,7 +28,7 @@ class ViewHeroBirthdayComponent0 extends AppView<import1.HeroBirthdayComponent> 
   import3.DatePipe _pipe_date_0;
   String Function(dynamic) _pipe_date_0_0;
   static RenderComponentType _renderType;
-  ViewHeroBirthdayComponent0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.COMPONENT, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
+  ViewHeroBirthdayComponent0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.component, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways) {
     rootEl = import2.document.createElement('hero-birthday');
     _renderType ??= import8.appViewUtils.createRenderType('', ViewEncapsulation.None, styles$HeroBirthdayComponent);
     setupComponentType(_renderType);
@@ -69,7 +69,7 @@ const List<dynamic> styles$HeroBirthdayComponentHost = const [];
 class _ViewHeroBirthdayComponentHost0 extends AppView<dynamic> {
   ViewHeroBirthdayComponent0 _compView_0;
   import1.HeroBirthdayComponent _HeroBirthdayComponent_0_5;
-  _ViewHeroBirthdayComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.HOST, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
+  _ViewHeroBirthdayComponentHost0(AppView<dynamic> parentView, int parentIndex) : super(import6.ViewType.host, {}, parentView, parentIndex, ChangeDetectionStrategy.CheckAlways);
   @override
   ComponentRef build() {
     _compView_0 = new ViewHeroBirthdayComponent0(this, 0);
