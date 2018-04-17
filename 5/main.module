@@ -1,1 +1,1 @@
-{"p":["pipe_examples","web/main.dart"],"s":[["pipe_examples","web/main.template.dart"],["pipe_examples","web/main.dart"]],"d":[["angular","lib/angular.dart"],["pipe_examples","lib/app_component.dart"],["angular","lib/angular.template.dart"],["pipe_examples","lib/app_component.template.dart"]]}
+{"p":["pipe_examples","web/main.dart"],"s":[["pipe_examples","web/main.dart"]],"d":[["angular","lib/angular.dart"],["pipe_examples","lib/app_component.template.dart"]]}
