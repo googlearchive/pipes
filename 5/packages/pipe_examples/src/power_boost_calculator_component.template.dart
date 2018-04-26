@@ -104,23 +104,11 @@ class ViewPowerBoostCalculatorComponent0 extends AppView<import1.PowerBoostCalcu
 
   @override
   dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
-    if ((identical(token, import3.DefaultValueAccessor) && (4 == nodeIndex))) {
-      return _DefaultValueAccessor_4_5;
-    }
-    if ((identical(token, import4.NumberValueAccessor) && (4 == nodeIndex))) {
-      return _NumberValueAccessor_4_6;
-    }
     if ((identical(token, const import14.MultiToken<import15.ControlValueAccessor>('NgValueAccessor')) && (4 == nodeIndex))) {
       return _NgValueAccessor_4_7;
     }
     if (((identical(token, import6.NgModel) || identical(token, import16.NgControl)) && (4 == nodeIndex))) {
       return _NgModel_4_8;
-    }
-    if ((identical(token, import3.DefaultValueAccessor) && (7 == nodeIndex))) {
-      return _DefaultValueAccessor_7_5;
-    }
-    if ((identical(token, import4.NumberValueAccessor) && (7 == nodeIndex))) {
-      return _NumberValueAccessor_7_6;
     }
     if ((identical(token, const import14.MultiToken<import15.ControlValueAccessor>('NgValueAccessor')) && (7 == nodeIndex))) {
       return _NgValueAccessor_7_7;

@@ -152,17 +152,11 @@ class ViewFlyingHeroesComponent0 extends AppView<import1.FlyingHeroesComponent> 
 
   @override
   dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
-    if ((identical(token, import3.CheckboxControlValueAccessor) && (5 == nodeIndex))) {
-      return _CheckboxControlValueAccessor_5_5;
-    }
     if ((identical(token, const import17.MultiToken<import18.ControlValueAccessor>('NgValueAccessor')) && (5 == nodeIndex))) {
       return _NgValueAccessor_5_6;
     }
     if (((identical(token, import5.NgModel) || identical(token, import19.NgControl)) && (5 == nodeIndex))) {
       return _NgModel_5_7;
-    }
-    if ((identical(token, import3.CheckboxControlValueAccessor) && (8 == nodeIndex))) {
-      return _CheckboxControlValueAccessor_8_5;
     }
     if ((identical(token, const import17.MultiToken<import18.ControlValueAccessor>('NgValueAccessor')) && (8 == nodeIndex))) {
       return _NgValueAccessor_8_6;
@@ -457,17 +451,11 @@ class ViewFlyingHeroesImpureComponent0 extends AppView<import1.FlyingHeroesImpur
 
   @override
   dynamic injectorGetInternal(dynamic token, int nodeIndex, dynamic notFoundResult) {
-    if ((identical(token, import3.CheckboxControlValueAccessor) && (5 == nodeIndex))) {
-      return _CheckboxControlValueAccessor_5_5;
-    }
     if ((identical(token, const import17.MultiToken<import18.ControlValueAccessor>('NgValueAccessor')) && (5 == nodeIndex))) {
       return _NgValueAccessor_5_6;
     }
     if (((identical(token, import5.NgModel) || identical(token, import19.NgControl)) && (5 == nodeIndex))) {
       return _NgModel_5_7;
-    }
-    if ((identical(token, import3.CheckboxControlValueAccessor) && (8 == nodeIndex))) {
-      return _CheckboxControlValueAccessor_8_5;
     }
     if ((identical(token, const import17.MultiToken<import18.ControlValueAccessor>('NgValueAccessor')) && (8 == nodeIndex))) {
       return _NgValueAccessor_8_6;
